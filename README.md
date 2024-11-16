@@ -1,3 +1,40 @@
+# Learn ROS 2 by Building a Real Robot 🚀
+
+Welcome to my GitHub repository showcasing projects and exercises from the Udemy course [*"Learn ROS 2 by Building a Real Robot"*](https://www.udemy.com/course/ros-2-course/). This course adopts a *Learn by Doing* approach, blending theory, practical applications, and hands-on experiments with both simulated and real robots.
+
+## 🧠 **Course Highlights**
+
+- **Create a Real Robot**: Build and program a robot from scratch using ROS 2.
+- **Digital Twin**: Simulate the robot using URDF, Gazebo, and RViz2.
+- **Robot Control**: Implement actuators control with `ros2_control`.
+- **Trajectory Planning**: Explore kinematics and trajectory planning with MoveIt 2.
+- **Voice Interaction**: Use Alexa to actuate the robot.
+- **Arduino Integration**: Interface with hardware using Arduino and serial communication.
+
+The projects are implemented in both Python and C++, enabling flexibility and deep learning across multiple programming paradigms.
+
+## 📂 **Repository Structure**
+
+```plaintext
+.
+├── Section1_Introduction
+├── Section2_Setup
+│   ├── Ubuntu_and_ROS_Noetic_Installation.md
+│   └── Environment_Setup_Scripts/
+├── Section3_ROS_Basics
+│   ├── ROS_Nodes/
+│   ├── ROS_Publisher_Subscriber/
+│   └── Notes.md
+├── Section4_Digital_Twin
+│   ├── URDF/
+│   ├── Gazebo/
+│   ├── RViz2/
+│   └── Launch_Files/
+├── Section5_Control
+├── Section6_Kinematics
+├── Section7_Application
+└── Section8_Build_Robot
+```
 
 ## 💻 **Prerequisites**
 
