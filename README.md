@@ -1,4 +1,4 @@
-# Learn ROS 2 by Building a Real Robot 🚀
+# Learn ROS 2 by Building a Real Robot - Manipulator 🚀
 
 Welcome to my GitHub repository showcasing projects and exercises from the Udemy course [*"Learn ROS 2 by Building a Real Robot"*](https://www.udemy.com/course/ros-2-course/). This course adopts a *Learn by Doing* approach, blending theory, practical applications, and hands-on experiments with both simulated and real robots.
 
@@ -13,14 +13,7 @@ Welcome to my GitHub repository showcasing projects and exercises from the Udemy
 
 The projects are implemented in both Python and C++, enabling flexibility and deep learning across multiple programming paradigms.
 
-## 💻 **Prerequisites**
-
-- Basic knowledge of Python or C++
-- Familiarity with Linux systems
-- No prior experience with ROS or robotics theory is required
-- A PC is sufficient for all simulations
-
-## 🌟 **What You'll Learn**
+## 🌟 **What I have Learned**
 
 1. **Master ROS 2**: The final version of the Robot Operating System.
 2. **Create and Simulate Robots**: Use ROS tools like Gazebo and RViz2.
