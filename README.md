@@ -13,29 +13,6 @@ Welcome to my GitHub repository showcasing projects and exercises from the Udemy
 
 The projects are implemented in both Python and C++, enabling flexibility and deep learning across multiple programming paradigms.
 
-## 📂 **Repository Structure**
-
-```plaintext
-.
-├── Section1_Introduction
-├── Section2_Setup
-│   ├── Ubuntu_and_ROS_Noetic_Installation.md
-│   └── Environment_Setup_Scripts/
-├── Section3_ROS_Basics
-│   ├── ROS_Nodes/
-│   ├── ROS_Publisher_Subscriber/
-│   └── Notes.md
-├── Section4_Digital_Twin
-│   ├── URDF/
-│   ├── Gazebo/
-│   ├── RViz2/
-│   └── Launch_Files/
-├── Section5_Control
-├── Section6_Kinematics
-├── Section7_Application
-└── Section8_Build_Robot
-```
-
 ## 💻 **Prerequisites**
 
 - Basic knowledge of Python or C++
