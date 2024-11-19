@@ -1,0 +1,40 @@
+[0.673s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_py_examples': PYTHONPATH=/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
+[0.803s] /home/raz/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:260: UserWarning: Unknown distribution option: 'tests_require'
+[0.803s]   warnings.warn(msg)
+[0.889s] running egg_info
+[0.904s] writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[0.904s] writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[0.904s] writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[0.905s] writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[0.935s] reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[0.935s] Traceback (most recent call last):
+[0.936s]   File "/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_py_examples/setup.py", line 5, in <module>
+[0.936s]     setup(
+[0.936s]   File "/home/raz/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[0.936s]     return distutils.core.setup(**attrs)
+[0.936s]   File "/home/raz/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 184, in setup
+[0.936s]     return run_commands(dist)
+[0.936s]   File "/home/raz/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 200, in run_commands
+[0.936s]     dist.run_commands()
+[0.936s]   File "/home/raz/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 953, in run_commands
+[0.936s]     self.run_command(cmd)
+[0.936s]   File "/home/raz/.local/lib/python3.10/site-packages/setuptools/dist.py", line 950, in run_command
+[0.936s]     super().run_command(command)
+[0.936s]   File "/home/raz/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 972, in run_command
+[0.937s]     cmd_obj.run()
+[0.937s]   File "/home/raz/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 311, in run
+[0.937s]     self.find_sources()
+[0.937s]   File "/home/raz/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 319, in find_sources
+[0.937s]     mm.run()
+[0.937s]   File "/home/raz/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 545, in run
+[0.937s]     self.prune_file_list()
+[0.937s]   File "/home/raz/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 161, in prune_file_list
+[0.937s]     super().prune_file_list()
+[0.937s]   File "/home/raz/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 392, in prune_file_list
+[0.937s]     base_dir = self.distribution.get_fullname()
+[0.937s]   File "/home/raz/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname
+[0.937s]     return _distribution_fullname(self.get_name(), self.get_version())
+[0.937s]   File "/home/raz/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname
+[0.937s]     canonicalize_version(version, strip_trailing_zero=False),
+[0.937s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[0.953s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_py_examples' returned '1': PYTHONPATH=/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
