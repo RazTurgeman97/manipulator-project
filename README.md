@@ -1,6 +1,6 @@
 # ROS2 Manipulator Project 🚀
 
-Welcome to my GitHub repository showcasing projects and exercises from the Udemy course [*"Learn ROS 2 by Building a Real Robot"*](https://www.udemy.com/course/ros-2-course/). This course adopts a *Learn by Doing* approach, blending theory, practical applications, and hands-on experiments with both simulated and real robots.
+Welcome to my GitHub repository showcasing projects and exercises from the Udemy course [*"Learn ROS 2 by Building a Real Robot"*](https://www.udemy.com/course/robotics-and-ros-2-learn-by-doing-manipulators). This course adopts a *Learn by Doing* approach, blending theory, practical applications, and hands-on experiments with both simulated and real robots.
 
 ## 🧠 **Course Highlights**
 
