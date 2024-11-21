@@ -310,6 +310,9 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install("TARGETS" "simple_publisher" "simple_subscriber" "DESTINATION" "lib/arduinobot_cpp_examples")
+include("/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_cpp_examples" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

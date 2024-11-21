@@ -1,0 +1,50 @@
+[0.703s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples': PYTHONPATH=/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/build
+[0.978s] running develop
+[0.978s] /home/raz/.local/lib/python3.10/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.979s] !!
+[0.979s] 
+[0.979s]         ********************************************************************************
+[0.979s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.979s]         Instead, use pypa/build, pypa/installer or other
+[0.979s]         standards-based tools.
+[0.979s] 
+[0.979s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.979s]         ********************************************************************************
+[0.979s] 
+[0.979s] !!
+[0.979s]   easy_install.initialize_options(self)
+[1.191s] Removing /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot-py-examples.egg-link (link to .)
+[1.212s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples' returned '0': PYTHONPATH=/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/build
+[1.214s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_py_examples': PYTHONPATH=/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data --force
+[1.440s] running egg_info
+[1.455s] writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[1.455s] writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[1.455s] writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[1.455s] writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[1.456s] writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[1.486s] reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.486s] writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[1.486s] running build
+[1.486s] running build_py
+[1.487s] copying arduinobot_py_examples/__init__.py -> /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.487s] copying arduinobot_py_examples/simple_subscriber.py -> /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.487s] copying arduinobot_py_examples/simple_publisher.py -> /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[1.487s] running install
+[1.491s] running install_lib
+[1.506s] creating /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[1.506s] copying /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/__init__.py -> /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[1.506s] copying /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_subscriber.py -> /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[1.506s] copying /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_publisher.py -> /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[1.507s] byte-compiling /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/__init__.py to __init__.cpython-310.pyc
+[1.507s] byte-compiling /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[1.507s] byte-compiling /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[1.507s] running install_data
+[1.507s] copying resource/arduinobot_py_examples -> /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[1.508s] copying package.xml -> /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples
+[1.508s] running install_egg_info
+[1.523s] Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info
+[1.553s] running install_scripts
+[1.718s] Installing simple_publisher script to /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.718s] Installing simple_subscriber script to /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[1.719s] writing list of installed files to '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/install.log'
+[1.757s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_py_examples' returned '0': PYTHONPATH=/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data --force

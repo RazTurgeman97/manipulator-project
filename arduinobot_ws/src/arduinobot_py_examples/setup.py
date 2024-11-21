@@ -17,10 +17,10 @@ setup(
     maintainer_email='Raz.Turgeman97@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'simple_publisher = arduinobot_py_examples.simple_publisher:main'
+            'simple_publisher = arduinobot_py_examples.simple_publisher:main',
+            'simple_subscriber = arduinobot_py_examples.simple_subscriber:main',
         ],
     },
 )

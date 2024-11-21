@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples/simple_publisher" "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples/simple_subscriber" "TARGETS" "simple_publisher" "simple_subscriber" "DESTINATION" "lib/arduinobot_cpp_examples")
