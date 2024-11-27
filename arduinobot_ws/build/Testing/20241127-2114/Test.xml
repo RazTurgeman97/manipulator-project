@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20241127-2114-Experimental"
+	Name="raz-vivobook"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="raz-vivobook"
+	OSRelease="6.8.0-49-generic"
+	OSVersion="#49~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Nov  6 17:42:15 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="165"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15827"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4211.56"
+	>
+	<Testing>
+		<StartDateTime>Nov 27 23:14 IST</StartDateTime>
+		<StartTestTime>1732742049</StartTestTime>
+		<TestList/>
+		<EndDateTime>Nov 27 23:14 IST</EndDateTime>
+		<EndTestTime>1732742049</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
