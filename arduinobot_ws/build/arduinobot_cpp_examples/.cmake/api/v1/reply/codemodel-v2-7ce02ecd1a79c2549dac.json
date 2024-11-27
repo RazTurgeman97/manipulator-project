@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f018faaa8bb240455134.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "arduinobot_cpp_examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_cpp_examples_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_cpp_examples_uninstall-cabba6b8257816c3c147.json",
+					"name" : "arduinobot_cpp_examples_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_publisher-95a753b4dd0d16d04992.json",
+					"name" : "simple_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_subscriber-0fd3a34061ded07ea15d.json",
+					"name" : "simple_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-df0aec363b41c1bcdab2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples",
+		"source" : "/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_cpp_examples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

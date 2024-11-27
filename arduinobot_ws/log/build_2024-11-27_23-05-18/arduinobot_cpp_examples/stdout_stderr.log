@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[ 50%] Built target simple_publisher
+[100%] Built target simple_subscriber
+-- Install configuration: ""
+-- Installing: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv

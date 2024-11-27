@@ -1,0 +1,1 @@
+/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv

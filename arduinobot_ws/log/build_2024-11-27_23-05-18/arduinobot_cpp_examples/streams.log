@@ -1,0 +1,10 @@
+[0.076s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples -- -j12 -l12
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[0.129s] [ 50%] Built target simple_publisher
+[0.130s] [100%] Built target simple_subscriber
+[0.310s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples -- -j12 -l12
+[0.320s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples
+[0.326s] -- Install configuration: ""
+[0.326s] -- Installing: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv
+[0.335s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples
