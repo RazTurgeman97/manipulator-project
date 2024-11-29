@@ -1,7 +1,7 @@
 #include <rclcpp/rclcpp.hpp> // ROS2 C++ API
 #include <std_msgs/msg/string.hpp> // ROS2 std_msgs
 
-using std::placeholders::_1;
+using std::placeholders::_1; // Using namespace for the placeholders
 
 class SimpleSubscriber : public rclcpp::Node{ // SimpleSubscriber class inherits from rclcpp::Node
 

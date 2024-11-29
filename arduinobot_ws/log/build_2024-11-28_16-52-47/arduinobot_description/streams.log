@@ -1,0 +1,9 @@
+[0.010s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_description -- -j12 -l12
+[0.025s] [31mCMake Error at CMakeLists.txt:10:
+[0.025s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.025s] 
+[0.025s] [0m
+[0.025s] -- Configuring incomplete, errors occurred!
+[0.025s] See also "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_description/CMakeFiles/CMakeOutput.log".
+[0.026s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.029s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_description -- -j12 -l12
