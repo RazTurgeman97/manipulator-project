@@ -1,0 +1,54 @@
+[0.168s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/opt/ros/humble /usr/bin/cmake /home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_cpp_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples
+[1.546s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.200s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.554s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[10.232s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.671s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.474s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.863s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.611s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.423s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[19.810s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[21.943s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[25.812s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[25.856s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[25.856s] -- Configured cppcheck include dirs: 
+[25.856s] -- Configured cppcheck exclude dirs and/or files: 
+[25.856s] -- Added test 'lint_cmake' to check CMake code style
+[25.857s] -- Added test 'uncrustify' to check C / C++ code style
+[25.857s] -- Configured uncrustify additional arguments: 
+[25.857s] -- Added test 'xmllint' to check XML markup files
+[25.858s] -- Configuring done
+[26.305s] -- Generating done
+[26.309s] -- Build files have been written to: /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples
+[26.314s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/opt/ros/humble /usr/bin/cmake /home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_cpp_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples
+[26.316s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples -- -j12 -l12
+[26.343s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[26.344s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[26.344s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[28.071s] [ 33%] Built target simple_parameter
+[28.196s] [100%] Built target simple_publisher
+[28.196s] [100%] Built target simple_subscriber
+[28.204s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples -- -j12 -l12
+[28.205s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples
+[28.210s] -- Install configuration: ""
+[28.210s] -- Execute custom install script
+[28.210s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher
+[28.210s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber
+[28.211s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_parameter
+[28.211s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples
+[28.211s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_examples
+[28.211s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.sh
+[28.211s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.dsv
+[28.211s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.sh
+[28.211s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.dsv
+[28.211s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.bash
+[28.212s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.sh
+[28.212s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.zsh
+[28.212s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.dsv
+[28.212s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv
+[28.218s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/packages/arduinobot_cpp_examples
+[28.218s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig.cmake
+[28.219s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig-version.cmake
+[28.219s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.xml
+[28.220s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples

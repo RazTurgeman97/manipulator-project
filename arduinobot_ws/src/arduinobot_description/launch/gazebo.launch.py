@@ -1,12 +1,14 @@
-from launch import LaunchDescription
-from launch_ros.actions import Node
-from launch.substitutions import Command, LaunchConfiguration
-from launch.actions import DeclareLaunchArgument, SetEnvironmentVariable, IncludeLaunchDescription
-from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch_ros.parameter_descriptions import ParameterValue
 import os
 from pathlib import Path
-from ament_index_python import get_package_share_directory
+from ament_index_python.packages import get_package_share_directory
+
+from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, SetEnvironmentVariable
+from launch.substitutions import Command, LaunchConfiguration
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+
+from launch_ros.actions import Node
+from launch_ros.parameter_descriptions import ParameterValue
 
 
 def generate_launch_description():
@@ -18,6 +20,16 @@ def generate_launch_description():
                                       description='Absolute path to robot urdf file'
     )
     
+    gazebo_resource_path = SetEnvironmentVariable(name='GZ_SIM_RESOURCE_PATH',
+                                                  value=[
+                                                    str(Path(arduinobot_description_path).parent.resolve())
+                                                ]
+    )
+    
+    ros_distro = os.environ["ROS_DISTRO"]
+    is_ignition = "True" if ros_distro == "humble" else "False"
+    physics_engine = "" if ros_distro == "humble" else "--physics-engine gz-physics-bullet-featherstone-plugin"
+    
     robot_description = ParameterValue(Command(['xacro ', LaunchConfiguration('model')]),
                                        value_type=str)
     
@@ -27,15 +39,6 @@ def generate_launch_description():
                                  parameters=[{'robot_description': robot_description,
                                               'use_sim_time': True}]
     )
-    
-    gazebo_resource_path = SetEnvironmentVariable(name='GZ_SIM_RESOURCE_PATH',
-                                                  value=[
-                                                    str(Path(arduinobot_description_path).parent.resolve())
-                                                ]
-    )
-    
-    ros_distro = os.environ['ROS_DISTRO']
-    physics_engine = "" if ros_distro == 'humble' else '--physics-engine gz-physics-bullet-featherstone-plugin'
     
     gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
@@ -59,9 +62,11 @@ def generate_launch_description():
     
     gz_ros2_bridge = Node(package='ros_gz_bridge',
                            executable='parameter_bridge',
-                           arguments=['/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock]',
-                                      '/cmd_vel@geometry_msgs/msg/Twist[gz.msgs.Twist]',
-                                      '/odometry@nav_msgs/msg/Odometry[gz.msgs.Odometry]'
+                           arguments=['/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
+                                      '/cmd_vel@geometry_msgs/msg/Twist[gz.msgs.Twist',
+                                      '/odometry@nav_msgs/msg/Odometry[gz.msgs.Odometry',
+                                      "/image_raw@sensor_msgs/msg/Image[gz.msgs.Image",
+                                      "/camera_info@sensor_msgs/msg/CameraInfo[gz.msgs.CameraInfo",
                             ]
     )
     
