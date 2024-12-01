@@ -1,0 +1,21 @@
+[10.292s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples': PYTHONPATH=/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/build --no-deps symlink_data --force
+[10.606s] running develop
+[10.841s] running egg_info
+[10.858s] writing arduinobot_py_examples.egg-info/PKG-INFO
+[10.860s] writing dependency_links to arduinobot_py_examples.egg-info/dependency_links.txt
+[10.860s] writing entry points to arduinobot_py_examples.egg-info/entry_points.txt
+[10.860s] writing requirements to arduinobot_py_examples.egg-info/requires.txt
+[10.860s] writing top-level names to arduinobot_py_examples.egg-info/top_level.txt
+[10.895s] reading manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+[10.897s] writing manifest file 'arduinobot_py_examples.egg-info/SOURCES.txt'
+[10.931s] running build_ext
+[10.931s] Creating /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot-py-examples.egg-link (link to .)
+[10.932s] Installing simple_parameter script to /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[10.932s] Installing simple_publisher script to /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[10.932s] Installing simple_subscriber script to /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[10.932s] 
+[10.932s] Installed /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples
+[10.932s] running symlink_data
+[10.933s] symbolically linking /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/resource/arduinobot_py_examples -> /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/share/ament_index/resource_index/packages
+[10.933s] symbolically linking /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/package.xml -> /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples
+[10.956s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples' returned '0': PYTHONPATH=/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_py_examples/build --no-deps symlink_data --force
