@@ -1,3 +1,0 @@
-[0.024s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples -- -j12 -l12
-[0.160s] [100%] Built target simple_subscriber
-[0.160s] [100%] Built target simple_publisher
