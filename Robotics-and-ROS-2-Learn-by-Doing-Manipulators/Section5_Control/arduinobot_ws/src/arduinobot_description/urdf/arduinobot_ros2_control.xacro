@@ -5,9 +5,8 @@
 
         <xacro:property name="PI" value="3.14159265359" />
 
-        <!-- ros2_control Gazebo -->
         <hardware>
-            <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+            <plugin>ign_ros2_control/IgnitionSystem</plugin>
         </hardware>
 
         <joint name="joint_1">

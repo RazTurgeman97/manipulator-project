@@ -4,7 +4,7 @@ from launch_ros.parameter_descriptions import ParameterValue # ParameterValue is
 from launch.actions import DeclareLaunchArgument # DeclareLaunchArgument is used to declare a launch argument
 from launch.substitutions import Command, LaunchConfiguration # Command is used to create a command, LaunchConfiguration is used to get the value of a launch argument
 import os
-from ament_index_python import get_package_share_directory
+from ament_index_python.packages import get_package_share_directory
 
 # ros2 launch arduinobot_description display.launch.py
 

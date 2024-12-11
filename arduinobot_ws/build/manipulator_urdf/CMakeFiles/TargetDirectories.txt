@@ -1,9 +1,0 @@
-/home/raz/projects/manipulator-project/arduinobot_ws/build/manipulator_urdf/CMakeFiles/uninstall.dir
-/home/raz/projects/manipulator-project/arduinobot_ws/build/manipulator_urdf/CMakeFiles/manipulator_urdf_uninstall.dir
-/home/raz/projects/manipulator-project/arduinobot_ws/build/manipulator_urdf/CMakeFiles/test.dir
-/home/raz/projects/manipulator-project/arduinobot_ws/build/manipulator_urdf/CMakeFiles/edit_cache.dir
-/home/raz/projects/manipulator-project/arduinobot_ws/build/manipulator_urdf/CMakeFiles/rebuild_cache.dir
-/home/raz/projects/manipulator-project/arduinobot_ws/build/manipulator_urdf/CMakeFiles/list_install_components.dir
-/home/raz/projects/manipulator-project/arduinobot_ws/build/manipulator_urdf/CMakeFiles/install.dir
-/home/raz/projects/manipulator-project/arduinobot_ws/build/manipulator_urdf/CMakeFiles/install/local.dir
-/home/raz/projects/manipulator-project/arduinobot_ws/build/manipulator_urdf/CMakeFiles/install/strip.dir

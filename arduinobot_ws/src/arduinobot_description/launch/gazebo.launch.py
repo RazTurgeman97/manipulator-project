@@ -30,8 +30,13 @@ def generate_launch_description():
     is_ignition = "True" if ros_distro == "humble" else "False"
     physics_engine = "" if ros_distro == "humble" else "--physics-engine gz-physics-bullet-featherstone-plugin"
     
-    robot_description = ParameterValue(Command(['xacro ', LaunchConfiguration('model')]),
-                                       value_type=str)
+    robot_description = ParameterValue(Command([
+        'xacro ',
+        LaunchConfiguration('model'),
+        " is_ignition:=",
+        is_ignition
+        ]),
+        value_type=str)
     
     robot_state_publisher = Node(package='robot_state_publisher', 
                                  executable='robot_state_publisher', 
@@ -63,10 +68,10 @@ def generate_launch_description():
     gz_ros2_bridge = Node(package='ros_gz_bridge',
                            executable='parameter_bridge',
                            arguments=['/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
-                                      '/cmd_vel@geometry_msgs/msg/Twist[gz.msgs.Twist',
-                                      '/odometry@nav_msgs/msg/Odometry[gz.msgs.Odometry',
                                       "/image_raw@sensor_msgs/msg/Image[gz.msgs.Image",
                                       "/camera_info@sensor_msgs/msg/CameraInfo[gz.msgs.CameraInfo",
+                                    #   '/cmd_vel@geometry_msgs/msg/Twist[gz.msgs.Twist',
+                                    #   '/odometry@nav_msgs/msg/Odometry[gz.msgs.Odometry',
                             ]
     )
     
