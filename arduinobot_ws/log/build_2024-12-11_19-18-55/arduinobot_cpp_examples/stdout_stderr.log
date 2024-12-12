@@ -38,9 +38,9 @@
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
 [ 66%] [32m[1mLinking CXX executable simple_parameter[0m
 [ 66%] Built target simple_parameter
 [ 83%] [32m[1mLinking CXX executable simple_publisher[0m
