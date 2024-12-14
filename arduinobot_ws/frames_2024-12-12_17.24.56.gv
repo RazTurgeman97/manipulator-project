@@ -1,0 +1,14 @@
+digraph G {
+"horizontal_arm_link" -> "claw_support_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"forward_drive_arm_link" -> "horizontal_arm_link"[label=" Broadcaster: default_authority\nAverage rate: 10.199\nBuffer length: 5.0\nMost recent transform: 1734017096.076546\nOldest transform: 1734017091.076195\n"];
+"base_link" -> "rgb_camera"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"world" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "base_plate"[label=" Broadcaster: default_authority\nAverage rate: 10.199\nBuffer length: 5.0\nMost recent transform: 1734017096.076546\nOldest transform: 1734017091.076195\n"];
+"base_plate" -> "forward_drive_arm_link"[label=" Broadcaster: default_authority\nAverage rate: 10.199\nBuffer length: 5.0\nMost recent transform: 1734017096.076546\nOldest transform: 1734017091.076195\n"];
+"claw_support_link" -> "gripper_right_link"[label=" Broadcaster: default_authority\nAverage rate: 10.199\nBuffer length: 5.0\nMost recent transform: 1734017096.076546\nOldest transform: 1734017091.076195\n"];
+"claw_support_link" -> "gripper_left_link"[label=" Broadcaster: default_authority\nAverage rate: 10.199\nBuffer length: 5.0\nMost recent transform: 1734017096.076546\nOldest transform: 1734017091.076195\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1734017096.106546"[ shape=plaintext ] ;
+}->"world";
+}
