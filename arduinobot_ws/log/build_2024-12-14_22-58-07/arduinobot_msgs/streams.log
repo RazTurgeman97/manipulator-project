@@ -1,0 +1,21 @@
+[0.020s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs -- -j12 -l12
+[0.212s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs -- -j12 -l12
+[0.213s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs
+[0.222s] -- Install configuration: ""
+[0.222s] -- Execute custom install script
+[0.222s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/package_run_dependencies/arduinobot_msgs
+[0.223s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/parent_prefix_path/arduinobot_msgs
+[0.223s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/ament_prefix_path.sh
+[0.223s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/ament_prefix_path.dsv
+[0.223s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/path.sh
+[0.223s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/path.dsv
+[0.223s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.bash
+[0.223s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.sh
+[0.224s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.zsh
+[0.224s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.dsv
+[0.224s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.dsv
+[0.229s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/packages/arduinobot_msgs
+[0.229s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgsConfig.cmake
+[0.229s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgsConfig-version.cmake
+[0.229s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.xml
+[0.244s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs

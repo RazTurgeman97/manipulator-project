@@ -217,7 +217,7 @@
         <child link="gripper_right_link"/>
         <origin xyz="0.092 0.145 -0.09" rpy="0 0 0"/> <!-- Relative transform -->
         <axis xyz="0 0 1"/>
-        <limit lower="-${PI/2}" upper="0" effort="${effort}" velocity="${velocity}"/>
+        <limit lower="-${PI/2}" upper="0.0" effort="${effort}" velocity="${velocity}"/>
     </joint>
 
     <!-- Claw Support to Gripper Left Joint (TF Transform) -->
@@ -226,7 +226,7 @@
         <child link="gripper_left_link"/>
         <origin xyz="-0.09 0.145 -0.09" rpy="0 0 0"/> <!-- Relative transform -->
         <axis xyz="0 0 1"/>
-        <limit lower="0" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
+        <limit lower="0.0" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
         <mimic joint="joint_4" multiplier="-1" offset="0"/>
     </joint>
 
