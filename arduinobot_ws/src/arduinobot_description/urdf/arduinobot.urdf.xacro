@@ -91,7 +91,7 @@
             <geometry>
                 <mesh filename="package://arduinobot_description/meshes/horizontal_arm.STL" scale="0.01 0.01 0.01" />
             </geometry>
-            <origin xyz="-0.04 -0.075 -0.075" rpy="${PI/2} 0 ${PI/2}" /> <!-- needed in order to render the mesh properly -->
+            <origin xyz="-0.04 -0.425 -0.075" rpy="${PI/2} 0 ${PI/2}" /> <!-- needed in order to render the mesh properly -->
             </visual>
         <collision>
             <geometry>
@@ -208,7 +208,7 @@
     <joint name="horizontal_arm_to_claw_support" type="fixed">
         <parent link="horizontal_arm_link"/>
         <child link="claw_support_link"/>
-        <origin xyz="0.0 1.15 -0.001" rpy="0 0 0"/> <!-- Relative transform -->
+        <origin xyz="0.0 0.8 -0.001" rpy="0 0 0"/> <!-- Relative transform -->
     </joint>
 
     <!-- Claw Support to Gripper Right Joint (TF Transform) -->
