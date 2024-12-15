@@ -2,7 +2,7 @@
 
 controller_manager:
   ros__parameters:
-    update_rate: 100   # Hz
+    update_rate: 100 # Hz
 
     arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
@@ -36,7 +36,6 @@ gripper_controller:
   ros__parameters:
     joints:
       - joint_4
-
     interface_name: position
 
     # command_interfaces:

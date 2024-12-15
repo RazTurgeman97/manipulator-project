@@ -1,0 +1,31 @@
+[0.019s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake /home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs
+[0.027s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.131s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.204s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.266s] -- Added test 'lint_cmake' to check CMake code style
+[0.267s] -- Added test 'xmllint' to check XML markup files
+[0.268s] -- Configuring done
+[0.271s] -- Generating done
+[0.273s] -- Build files have been written to: /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs
+[0.276s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake /home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs
+[0.278s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs -- -j12 -l12
+[0.306s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs -- -j12 -l12
+[0.314s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs
+[0.320s] -- Install configuration: ""
+[0.320s] -- Execute custom install script
+[0.321s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/package_run_dependencies/arduinobot_msgs
+[0.326s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/parent_prefix_path/arduinobot_msgs
+[0.332s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/ament_prefix_path.sh
+[0.338s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/ament_prefix_path.dsv
+[0.344s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/path.sh
+[0.350s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/environment/path.dsv
+[0.356s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.bash
+[0.362s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.sh
+[0.369s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.zsh
+[0.375s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/local_setup.dsv
+[0.382s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.dsv
+[0.388s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/ament_index/resource_index/packages/arduinobot_msgs
+[0.395s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgsConfig.cmake
+[0.401s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake/arduinobot_msgsConfig-version.cmake
+[0.408s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.xml
+[0.417s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs

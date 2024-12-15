@@ -3,7 +3,7 @@
 
     <ros2_control name="RobotSystem" type="system">
 
-        <xacro:property name="PI" value="3.14159265359" />
+        <xacro:property name="PI" value="3.141592653589793" />
 
         <hardware>
             <plugin>ign_ros2_control/IgnitionSystem</plugin>

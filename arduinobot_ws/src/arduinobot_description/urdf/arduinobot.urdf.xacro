@@ -1,7 +1,4 @@
 <?xml version="1.0"?>
-
-<!-- ros2 launch urdf_tutorial display.launch.py model:=/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_description/urdf/arduinobot.urdf.xacro -->
-
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arduinobot">
 
     <!-- Start GZ or Ignition depending on ROS 2 Version -->
@@ -80,7 +77,7 @@
             <geometry>
                 <mesh filename="package://arduinobot_description/meshes/forward_drive_arm.STL" scale="0.01 0.01 0.01" />
             </geometry>
-            <origin xyz="0.18 0.075 -0.07" rpy="0 -${PI/2} ${PI/2}" />
+            <origin xyz="0.18 0.075 -0.075" rpy="0 -${PI/2} ${PI/2}" />
         </collision>
         <xacro:default_inertial mass="1.0" />
     </link>
@@ -97,7 +94,7 @@
             <geometry>
                 <mesh filename="package://arduinobot_description/meshes/horizontal_arm.STL" scale="0.01 0.01 0.01" />
             </geometry>
-            <origin xyz="-0.04 -0.075 -0.075" rpy="${PI/2} 0 ${PI/2}" />
+            <origin xyz="-0.04 -0.425 -0.075" rpy="${PI/2} 0 ${PI/2}" />
         </collision>
         <xacro:default_inertial mass="1.0" />
     </link>
@@ -190,7 +187,7 @@
     <joint name="joint_2" type="revolute">
         <parent link="base_plate"/>
         <child link="forward_drive_arm_link"/>
-        <origin xyz="0.018 0.0070 0.355" rpy="0 0 0"/> <!-- Relative transform -->
+        <origin xyz="0 0.007 0.355" rpy="0 0 0"/> <!-- Relative transform -->
         <axis xyz="1 0 0"/>
         <limit lower="-${PI/2}" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
     </joint>
@@ -199,7 +196,7 @@
     <joint name="joint_3" type="revolute">
         <parent link="forward_drive_arm_link"/>
         <child link="horizontal_arm_link"/>
-        <origin xyz="0.0025 0.023 0.8" rpy="0 0 0"/> <!-- Relative transform -->
+        <origin xyz="0 0.023 0.8" rpy="0 0 0"/> <!-- Relative transform -->
         <axis xyz="1 0 0"/>
         <limit lower="-${PI/2}" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
     </joint>
@@ -208,14 +205,14 @@
     <joint name="horizontal_arm_to_claw_support" type="fixed">
         <parent link="horizontal_arm_link"/>
         <child link="claw_support_link"/>
-        <origin xyz="0.0 0.8 -0.001" rpy="0 0 0"/> <!-- Relative transform -->
+        <origin xyz="0.0 0.8 0" rpy="0 0 0"/> <!-- Relative transform -->
     </joint>
 
     <!-- Claw Support to Gripper Right Joint (TF Transform) -->
     <joint name="joint_4" type="revolute">
         <parent link="claw_support_link"/>
         <child link="gripper_right_link"/>
-        <origin xyz="0.092 0.145 -0.09" rpy="0 0 0"/> <!-- Relative transform -->
+        <origin xyz="0.09 0.145 -0.09" rpy="0 0 0"/> <!-- Relative transform -->
         <axis xyz="0 0 1"/>
         <limit lower="-${PI/2}" upper="0.0" effort="${effort}" velocity="${velocity}"/>
     </joint>

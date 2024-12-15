@@ -68,8 +68,8 @@ def generate_launch_description():
     gz_ros2_bridge = Node(package='ros_gz_bridge',
                            executable='parameter_bridge',
                            arguments=['/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
-                                      "/image_raw@sensor_msgs/msg/Image[gz.msgs.Image",
-                                      "/camera_info@sensor_msgs/msg/CameraInfo[gz.msgs.CameraInfo",
+                                      "/rgb_camera/image_raw@sensor_msgs/msg/Image[gz.msgs.Image",
+                                      "/rgb_camera/camera_info@sensor_msgs/msg/CameraInfo[gz.msgs.CameraInfo",
                                     #   '/cmd_vel@geometry_msgs/msg/Twist[gz.msgs.Twist',
                                     #   '/odometry@nav_msgs/msg/Odometry[gz.msgs.Odometry',
                             ]
