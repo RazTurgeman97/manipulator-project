@@ -20,7 +20,6 @@
     <!-- Gazebo Camera Plugin -->
     
     <gazebo>
-        <!-- ROS 2 Humble -->
         <plugin filename="ignition-gazebo-sensors-system" name="ignition::gazebo::systems::Sensors">
             <render_engine>ogre2</render_engine>
         </plugin>

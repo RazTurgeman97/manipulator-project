@@ -71,13 +71,13 @@
             <geometry>
                 <mesh filename="package://arduinobot_description/meshes/forward_drive_arm.STL" scale="0.01 0.01 0.01" />
             </geometry>
-            <origin xyz="0.18 0.075 -0.075" rpy="0 -${PI/2} ${PI/2}" /> <!-- needed in order to render the mesh properly -->
+            <origin xyz="0.2 0.075 -0.075" rpy="0 -${PI/2} ${PI/2}" /> <!-- needed in order to render the mesh properly -->
         </visual>
         <collision>
             <geometry>
                 <mesh filename="package://arduinobot_description/meshes/forward_drive_arm.STL" scale="0.01 0.01 0.01" />
             </geometry>
-            <origin xyz="0.18 0.075 -0.075" rpy="0 -${PI/2} ${PI/2}" />
+            <origin xyz="0.2 0.075 -0.075" rpy="0 -${PI/2} ${PI/2}" />
         </collision>
         <xacro:default_inertial mass="1.0" />
     </link>
@@ -196,7 +196,7 @@
     <joint name="joint_3" type="revolute">
         <parent link="forward_drive_arm_link"/>
         <child link="horizontal_arm_link"/>
-        <origin xyz="0 0.023 0.8" rpy="0 0 0"/> <!-- Relative transform -->
+        <origin xyz="0.0225 0.023 0.8" rpy="0 0 0"/> <!-- Relative transform -->
         <axis xyz="1 0 0"/>
         <limit lower="-${PI/2}" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
     </joint>
@@ -212,7 +212,7 @@
     <joint name="joint_4" type="revolute">
         <parent link="claw_support_link"/>
         <child link="gripper_right_link"/>
-        <origin xyz="0.09 0.145 -0.09" rpy="0 0 0"/> <!-- Relative transform -->
+        <origin xyz="0.0915 0.145 -0.09" rpy="0 0 0"/> <!-- Relative transform -->
         <axis xyz="0 0 1"/>
         <limit lower="-${PI/2}" upper="0.0" effort="${effort}" velocity="${velocity}"/>
     </joint>
@@ -221,7 +221,7 @@
     <joint name="joint_5" type="revolute">
         <parent link="claw_support_link"/>
         <child link="gripper_left_link"/>
-        <origin xyz="-0.09 0.145 -0.09" rpy="0 0 0"/> <!-- Relative transform -->
+        <origin xyz="-0.0915 0.145 -0.09" rpy="0 0 0"/> <!-- Relative transform -->
         <axis xyz="0 0 1"/>
         <limit lower="0.0" upper="${PI/2}" effort="${effort}" velocity="${velocity}"/>
         <mimic joint="joint_4" multiplier="-1" offset="0"/>

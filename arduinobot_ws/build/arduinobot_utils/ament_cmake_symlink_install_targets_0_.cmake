@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_utils/angle_convertion" "TARGETS" "angle_convertion" "DESTINATION" "lib/arduinobot_utils")

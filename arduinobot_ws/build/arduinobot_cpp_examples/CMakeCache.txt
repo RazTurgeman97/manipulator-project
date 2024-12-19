@@ -245,7 +245,7 @@ RMW_IMPLEMENTATION:STRING=rmw_cyclonedds_cpp
 SITE:STRING=raz-vivobook
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
@@ -342,6 +342,9 @@ arduinobot_cpp_examples_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 arduinobot_cpp_examples_SOURCE_DIR:STATIC=/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_cpp_examples
+
+//The directory containing a CMake configuration file for arduinobot_msgs.
+arduinobot_msgs_DIR:PATH=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/humble/share/builtin_interfaces/cmake

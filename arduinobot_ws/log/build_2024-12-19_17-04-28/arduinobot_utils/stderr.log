@@ -1,0 +1,18 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_utils/src/angle_convertion.cpp:1[m[K:
+[01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_utils/src/angle_convertion.cpp:[m[K In member function ‘[01m[Kvoid AnglesConverter::quaternionToEulerCallback(std::shared_ptr<arduinobot_msgs::srv::QuaternionToEuler_Request_<std::allocator<void> > >, std::shared_ptr<arduinobot_msgs::srv::QuaternionToEuler_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_utils/src/angle_convertion.cpp:43:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+   43 |         [01;31m[KRCLCPP_INFO_STREAM[m[K(rclcpp::get_logger("rclcpp"), "Corresponding euler roll: " << res->roll << ", pitch: " << res->pitch << ", yaw: " << res->yaw);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/angle_convertion.dir/build.make:76: CMakeFiles/angle_convertion.dir/src/angle_convertion.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/angle_convertion.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

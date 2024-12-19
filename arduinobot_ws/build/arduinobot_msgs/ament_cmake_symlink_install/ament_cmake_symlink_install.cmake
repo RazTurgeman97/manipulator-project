@@ -310,6 +310,90 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/arduinobot_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/arduinobot_msgs" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+
+# install(DIRECTORY "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/" "DESTINATION" "include/arduinobot_msgs/arduinobot_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" DIRECTORY "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_c/arduinobot_msgs/" "DESTINATION" "include/arduinobot_msgs/arduinobot_msgs" "PATTERN" "*.h")
+
+# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/arduinobot_msgs/environment")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/arduinobot_msgs/environment")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/arduinobot_msgs/environment")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/arduinobot_msgs/environment")
+
+# install(DIRECTORY "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_typesupport_fastrtps_c/arduinobot_msgs/" "DESTINATION" "include/arduinobot_msgs/arduinobot_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" DIRECTORY "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_typesupport_fastrtps_c/arduinobot_msgs/" "DESTINATION" "include/arduinobot_msgs/arduinobot_msgs" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/" "DESTINATION" "include/arduinobot_msgs/arduinobot_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" DIRECTORY "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/" "DESTINATION" "include/arduinobot_msgs/arduinobot_msgs" "PATTERN" "*.hpp")
+
+# install(DIRECTORY "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_typesupport_fastrtps_cpp/arduinobot_msgs/" "DESTINATION" "include/arduinobot_msgs/arduinobot_msgs" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" DIRECTORY "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_typesupport_fastrtps_cpp/arduinobot_msgs/" "DESTINATION" "include/arduinobot_msgs/arduinobot_msgs" "PATTERN_EXCLUDE" "*.cpp")
+
+# install(DIRECTORY "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_typesupport_introspection_c/arduinobot_msgs/" "DESTINATION" "include/arduinobot_msgs/arduinobot_msgs" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" DIRECTORY "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_typesupport_introspection_c/arduinobot_msgs/" "DESTINATION" "include/arduinobot_msgs/arduinobot_msgs" "PATTERN" "*.h")
+
+# install(DIRECTORY "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_typesupport_introspection_cpp/arduinobot_msgs/" "DESTINATION" "include/arduinobot_msgs/arduinobot_msgs" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" DIRECTORY "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_typesupport_introspection_cpp/arduinobot_msgs/" "DESTINATION" "include/arduinobot_msgs/arduinobot_msgs" "PATTERN" "*.hpp")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/arduinobot_msgs/environment")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/arduinobot_msgs/environment")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/arduinobot_msgs/environment")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/arduinobot_msgs/environment")
+
+# install(DIRECTORY "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_python/arduinobot_msgs/arduinobot_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/arduinobot_msgs-0.0.0-py3.10.egg-info")
+ament_cmake_symlink_install_directory("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" DIRECTORY "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_python/arduinobot_msgs/arduinobot_msgs.egg-info/" "DESTINATION" "local/lib/python3.10/dist-packages/arduinobot_msgs-0.0.0-py3.10.egg-info")
+
+# install(DIRECTORY "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/arduinobot_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+ament_cmake_symlink_install_directory("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" DIRECTORY "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_py/arduinobot_msgs/" "DESTINATION" "local/lib/python3.10/dist-packages/arduinobot_msgs" "PATTERN_EXCLUDE" "*.pyc" "PATTERN_EXCLUDE" "__pycache__")
+
+# install("TARGETS" "arduinobot_msgs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/arduinobot_msgs")
+include("/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "arduinobot_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/arduinobot_msgs")
+include("/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "arduinobot_msgs__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/arduinobot_msgs")
+include("/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/AddTwoInts.idl" "DESTINATION" "share/arduinobot_msgs/srv")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/AddTwoInts.idl" "DESTINATION" "share/arduinobot_msgs/srv")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/EulerToQuaternion.idl" "DESTINATION" "share/arduinobot_msgs/srv")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/EulerToQuaternion.idl" "DESTINATION" "share/arduinobot_msgs/srv")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/QuaternionToEuler.idl" "DESTINATION" "share/arduinobot_msgs/srv")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/QuaternionToEuler.idl" "DESTINATION" "share/arduinobot_msgs/srv")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs/srv/AddTwoInts.srv" "DESTINATION" "share/arduinobot_msgs/srv")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs/srv/AddTwoInts.srv" "DESTINATION" "share/arduinobot_msgs/srv")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/srv/AddTwoInts_Request.msg" "DESTINATION" "share/arduinobot_msgs/srv")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/srv/AddTwoInts_Request.msg" "DESTINATION" "share/arduinobot_msgs/srv")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/srv/AddTwoInts_Response.msg" "DESTINATION" "share/arduinobot_msgs/srv")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/srv/AddTwoInts_Response.msg" "DESTINATION" "share/arduinobot_msgs/srv")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs/srv/EulerToQuaternion.srv" "DESTINATION" "share/arduinobot_msgs/srv")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs/srv/EulerToQuaternion.srv" "DESTINATION" "share/arduinobot_msgs/srv")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/srv/EulerToQuaternion_Request.msg" "DESTINATION" "share/arduinobot_msgs/srv")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/srv/EulerToQuaternion_Request.msg" "DESTINATION" "share/arduinobot_msgs/srv")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/srv/EulerToQuaternion_Response.msg" "DESTINATION" "share/arduinobot_msgs/srv")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/srv/EulerToQuaternion_Response.msg" "DESTINATION" "share/arduinobot_msgs/srv")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs/srv/QuaternionToEuler.srv" "DESTINATION" "share/arduinobot_msgs/srv")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs/srv/QuaternionToEuler.srv" "DESTINATION" "share/arduinobot_msgs/srv")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/srv/QuaternionToEuler_Request.msg" "DESTINATION" "share/arduinobot_msgs/srv")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/srv/QuaternionToEuler_Request.msg" "DESTINATION" "share/arduinobot_msgs/srv")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/srv/QuaternionToEuler_Response.msg" "DESTINATION" "share/arduinobot_msgs/srv")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/srv/QuaternionToEuler_Response.msg" "DESTINATION" "share/arduinobot_msgs/srv")
+
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arduinobot_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arduinobot_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
@@ -345,6 +429,27 @@ ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduin
 
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_index/share/ament_index/resource_index/packages/arduinobot_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_index/share/ament_index/resource_index/packages/arduinobot_msgs" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
 
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_core/arduinobot_msgsConfig.cmake" "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_core/arduinobot_msgsConfig-version.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_core/arduinobot_msgsConfig.cmake" "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_core/arduinobot_msgsConfig-version.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
