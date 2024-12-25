@@ -1,0 +1,16 @@
+[ 10%] Built target simple_publisher
+[ 20%] Built target simple_parameter
+[ 30%] Built target simple_service_client
+[ 40%] Built target simple_action_server_node
+[ 50%] Built target simple_service_server
+[ 60%] Built target simple_subscriber
+[ 80%] Built target simple_action_server
+[ 80%] Built target simple_action_client_node
+[ 90%] Built target simple_action_client
+[ 95%] [32mBuilding CXX object CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.o[0m
+[100%] [32m[1mLinking CXX executable simple_moveit_interface[0m
+[100%] Built target simple_moveit_interface
+-- Install configuration: ""
+-- Installing: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_moveit_interface
+-- Set runtime path of "/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_moveit_interface" to ""
+-- Installing: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv

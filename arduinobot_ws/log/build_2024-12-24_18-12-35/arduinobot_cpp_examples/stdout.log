@@ -1,0 +1,10 @@
+[ 10%] Built target simple_subscriber
+[ 15%] [32mBuilding CXX object CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.o[0m
+[ 25%] Built target simple_service_server
+[ 35%] Built target simple_publisher
+[ 45%] Built target simple_parameter
+[ 55%] Built target simple_service_client
+[ 65%] Built target simple_action_server
+[ 75%] Built target simple_action_server_node
+[ 95%] Built target simple_action_client_node
+[ 95%] Built target simple_action_client

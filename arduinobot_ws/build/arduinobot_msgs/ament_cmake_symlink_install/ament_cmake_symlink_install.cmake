@@ -292,7 +292,7 @@ function(_ament_cmake_symlink_install_create_symlink absolute_file symlink)
   endif()
 
   execute_process(
-    COMMAND "/usr/bin/cmake" "-E" "create_symlink"
+    COMMAND "/usr/local/bin/cmake" "-E" "create_symlink"
       "${absolute_file}"
       "${symlink}"
   )
@@ -367,6 +367,12 @@ ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduin
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/QuaternionToEuler.idl" "DESTINATION" "share/arduinobot_msgs/srv")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/srv/QuaternionToEuler.idl" "DESTINATION" "share/arduinobot_msgs/srv")
 
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/action/Fibonacci.idl" "DESTINATION" "share/arduinobot_msgs/action")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/action/Fibonacci.idl" "DESTINATION" "share/arduinobot_msgs/action")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/action/ArduinobotTask.idl" "DESTINATION" "share/arduinobot_msgs/action")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_adapter/arduinobot_msgs/action/ArduinobotTask.idl" "DESTINATION" "share/arduinobot_msgs/action")
+
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs/srv/AddTwoInts.srv" "DESTINATION" "share/arduinobot_msgs/srv")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs/srv/AddTwoInts.srv" "DESTINATION" "share/arduinobot_msgs/srv")
 
@@ -393,6 +399,12 @@ ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduin
 
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/srv/QuaternionToEuler_Response.msg" "DESTINATION" "share/arduinobot_msgs/srv")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/srv/QuaternionToEuler_Response.msg" "DESTINATION" "share/arduinobot_msgs/srv")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs/action/Fibonacci.action" "DESTINATION" "share/arduinobot_msgs/action")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs/action/Fibonacci.action" "DESTINATION" "share/arduinobot_msgs/action")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs/action/ArduinobotTask.action" "DESTINATION" "share/arduinobot_msgs/action")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs/action/ArduinobotTask.action" "DESTINATION" "share/arduinobot_msgs/action")
 
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arduinobot_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arduinobot_msgs" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
@@ -433,6 +445,9 @@ ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduin
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
 
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
+
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
 
@@ -444,9 +459,6 @@ ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduin
 
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
-
-# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
-ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
 
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_msgs" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/arduinobot_msgs/cmake")

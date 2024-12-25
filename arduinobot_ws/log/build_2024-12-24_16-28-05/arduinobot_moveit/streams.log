@@ -1,0 +1,28 @@
+[0.189s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_moveit -- -j12 -l12
+[0.749s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_moveit -- -j12 -l12
+[0.830s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --install /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_moveit
+[0.899s] -- Install configuration: ""
+[1.109s] -- Execute custom install script
+[1.239s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/launch/moveit.launch.py
+[1.240s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/arduinobot.srdf
+[1.240s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/initial_positions.yaml
+[1.240s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/joint_limits.yaml
+[1.240s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/kinematics.yaml
+[1.240s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/moveit_controllers.yaml
+[1.240s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/pilz_cartesian_limits.yaml
+[1.240s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/ament_index/resource_index/package_run_dependencies/arduinobot_moveit
+[1.241s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/ament_index/resource_index/parent_prefix_path/arduinobot_moveit
+[1.241s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/environment/ament_prefix_path.sh
+[1.241s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/environment/ament_prefix_path.dsv
+[1.241s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/environment/path.sh
+[1.241s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/environment/path.dsv
+[1.241s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/local_setup.bash
+[1.242s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/local_setup.sh
+[1.242s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/local_setup.zsh
+[1.242s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/local_setup.dsv
+[1.242s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.dsv
+[1.284s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/ament_index/resource_index/packages/arduinobot_moveit
+[1.284s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/cmake/arduinobot_moveitConfig.cmake
+[1.285s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/cmake/arduinobot_moveitConfig-version.cmake
+[1.285s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.xml
+[2.137s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --install /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_moveit

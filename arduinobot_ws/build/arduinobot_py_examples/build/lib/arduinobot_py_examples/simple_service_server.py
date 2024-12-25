@@ -5,7 +5,7 @@ from arduinobot_msgs.srv import AddTwoInts
 
 class SimpleServiceServer(Node):
     def __init__(self):
-        super().__init__("simple_servoce_server")
+        super().__init__("simple_service_server")
         
         self.service_ = self.create_service(AddTwoInts, "add_two_ints", self.serviceCallback)
         self.get_logger().info("Service add_two_onts Ready.")
@@ -16,11 +16,11 @@ class SimpleServiceServer(Node):
         self.get_logger().info("Returning sum: %d" %res.sum)
         return res
     
-def main():
-    rclpy.init()
-    simple_service_server = SimpleServiceServer
-    rclpy.spin(simple_service_server)
-    simple_service_server.destroy_node()
+def main(args=None):
+    rclpy.init(args=args)
+    node = SimpleServiceServer()
+    rclpy.spin(node)
+    node.destroy_node()
     rclpy.shutdown()
     
 if __name__ == '__main__':

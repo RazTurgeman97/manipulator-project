@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_remote/task_server_node" "TARGETS" "task_server_node" "DESTINATION" "lib/arduinobot_remote")

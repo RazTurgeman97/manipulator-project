@@ -1,0 +1,23 @@
+[0.029s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs -- -j12 -l12
+[0.046s] [  1%] Built target arduinobot_msgs__cpp
+[0.047s] [  1%] Built target ament_cmake_python_symlink_arduinobot_msgs
+[0.051s] [ 12%] Built target arduinobot_msgs__rosidl_generator_c
+[0.057s] [ 23%] Built target arduinobot_msgs__rosidl_typesupport_cpp
+[0.058s] [ 34%] Built target arduinobot_msgs__rosidl_typesupport_introspection_cpp
+[0.059s] [ 46%] Built target arduinobot_msgs__rosidl_typesupport_c
+[0.059s] [ 57%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c
+[0.062s] [ 68%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c
+[0.064s] [ 79%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.076s] [ 79%] Built target arduinobot_msgs
+[0.085s] [ 80%] Built target arduinobot_msgs__py
+[0.086s] [ 90%] Built target arduinobot_msgs__rosidl_generator_py
+[0.090s] [ 96%] Built target arduinobot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.090s] [ 96%] Built target arduinobot_msgs__rosidl_typesupport_introspection_c__pyext
+[0.090s] [100%] Built target arduinobot_msgs__rosidl_typesupport_c__pyext
+[0.286s] running egg_info
+[0.307s] writing arduinobot_msgs.egg-info/PKG-INFO
+[0.307s] writing dependency_links to arduinobot_msgs.egg-info/dependency_links.txt
+[0.308s] writing top-level names to arduinobot_msgs.egg-info/top_level.txt
+[0.370s] reading manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[0.371s] writing manifest file 'arduinobot_msgs.egg-info/SOURCES.txt'
+[0.390s] [100%] Built target ament_cmake_python_build_arduinobot_msgs_egg

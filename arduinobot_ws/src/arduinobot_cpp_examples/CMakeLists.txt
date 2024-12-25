@@ -10,6 +10,10 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(rcl_interfaces REQUIRED)
 find_package(arduinobot_msgs REQUIRED)
+find_package(rclcpp_action REQUIRED)
+find_package(rclcpp_components REQUIRED)
+find_package(moveit_ros_planning_interface REQUIRED)
+
 
 # Node 1: simple_publisher
 
@@ -36,6 +40,52 @@ ament_target_dependencies(simple_service_server rclcpp arduinobot_msgs)
 add_executable(simple_service_client src/simple_service_client.cpp)
 ament_target_dependencies(simple_service_client rclcpp arduinobot_msgs)
 
+# Action server: Instructions to install and compile the source code (from ros2 wiki)
+# https://docs.ros.org/en/humble/Tutorials/Intermediate/Writing-an-Action-Server-Client/Cpp.html#compiling-the-action-server
+
+# Node 6: simple_action_server
+
+add_library(simple_action_server SHARED src/simple_action_server.cpp)
+
+target_include_directories(simple_action_server PRIVATE
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_compile_definitions(simple_action_server
+  PRIVATE "SIMPLE_ACTION_SERVER_CPP_BUILDING_DLL")
+ament_target_dependencies(simple_action_server
+  "arduinobot_msgs"
+  "rclcpp"
+  "rclcpp_action"
+  "rclcpp_components")
+rclcpp_components_register_node(simple_action_server
+  PLUGIN "arduinobot_cpp_examples::SimpleActionServer"
+  EXECUTABLE simple_action_server_node
+)
+
+# Node 7: simple_action_client
+
+add_library(simple_action_client SHARED src/simple_action_client.cpp)
+
+target_include_directories(simple_action_client PRIVATE
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_compile_definitions(simple_action_client
+  PRIVATE "SIMPLE_ACTION_CLIENT_CPP_BUILDING_DLL")
+ament_target_dependencies(simple_action_client
+  "arduinobot_msgs"
+  "rclcpp"
+  "rclcpp_action"
+  "rclcpp_components")
+rclcpp_components_register_node(simple_action_client
+  PLUGIN "arduinobot_cpp_examples::SimpleActionClient"
+  EXECUTABLE simple_action_client_node
+)
+
+# Node 8: simple_moveit_interface
+
+add_executable(simple_moveit_interface src/simple_moveit_interface.cpp)
+ament_target_dependencies(simple_moveit_interface rclcpp moveit_ros_planning_interface)
+
 # Add targets (nodes and destination)
 
 install(TARGETS
@@ -44,7 +94,18 @@ install(TARGETS
   simple_parameter
   simple_service_server
   simple_service_client
+  simple_moveit_interface
   DESTINATION lib/${PROJECT_NAME}
+)
+
+# Action installation
+
+install(TARGETS
+  simple_action_server
+  simple_action_client
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION lib
 )
 
 if(BUILD_TESTING)

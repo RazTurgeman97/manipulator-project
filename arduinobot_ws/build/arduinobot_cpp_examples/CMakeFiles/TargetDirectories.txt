@@ -5,6 +5,11 @@
 /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_parameter.dir
 /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_service_server.dir
 /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_service_client.dir
+/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_action_server.dir
+/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_action_server_node.dir
+/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_action_client.dir
+/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_action_client_node.dir
+/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/simple_moveit_interface.dir
 /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/test.dir
 /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/edit_cache.dir
 /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/rebuild_cache.dir

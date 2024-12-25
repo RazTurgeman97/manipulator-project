@@ -1,0 +1,1 @@
+/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_remote/ament_cmake_core/arduinobot_remoteConfig.cmake

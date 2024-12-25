@@ -11,8 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp" "CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o" "gcc" "CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
