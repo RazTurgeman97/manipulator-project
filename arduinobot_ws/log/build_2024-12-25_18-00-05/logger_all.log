@@ -1,0 +1,241 @@
+[1.269s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'arduinobot_remote'][0m
+[1.269s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['arduinobot_remote'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x75eb4c726e00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75eb4c726680>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75eb4c726680>>, mixin_verb=('build',))[0m
+[1.933s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[1.934s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[1.934s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[1.934s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[1.934s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[1.934s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[1.934s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/raz/projects/manipulator-project/arduinobot_ws'
+[1.935s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.935s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[1.936s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[1.936s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[1.937s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[1.937s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[1.937s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[1.937s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[1.937s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[1.987s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[1.987s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[1.987s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[1.988s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[1.988s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[1.988s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.988s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[1.988s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[1.989s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.989s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[1.989s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[1.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[1.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[1.990s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[1.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[1.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[1.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[1.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[1.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[1.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[1.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[1.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[1.991s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[1.992s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[1.992s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[1.992s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[1.992s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.992s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_bringup) by extension 'ignore'
+[1.992s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_bringup) by extension 'ignore_ament_install'
+[1.992s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_bringup) by extensions ['colcon_pkg']
+[1.992s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_bringup) by extension 'colcon_pkg'
+[1.992s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_bringup) by extensions ['colcon_meta']
+[1.992s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_bringup) by extension 'colcon_meta'
+[1.993s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_bringup) by extensions ['ros']
+[1.993s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_bringup) by extension 'ros'
+[1.999s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arduinobot_bringup' with type 'ros.ament_cmake' and name 'arduinobot_bringup'[0m
+[1.999s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.999s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_controller) by extension 'ignore'
+[1.999s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_controller) by extension 'ignore_ament_install'
+[2.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_controller) by extensions ['colcon_pkg']
+[2.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_controller) by extension 'colcon_pkg'
+[2.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_controller) by extensions ['colcon_meta']
+[2.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_controller) by extension 'colcon_meta'
+[2.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_controller) by extensions ['ros']
+[2.000s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_controller) by extension 'ros'
+[2.002s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arduinobot_controller' with type 'ros.ament_cmake' and name 'arduinobot_controller'[0m
+[2.002s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[2.003s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_cpp_examples) by extension 'ignore'
+[2.003s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_cpp_examples) by extension 'ignore_ament_install'
+[2.003s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_cpp_examples) by extensions ['colcon_pkg']
+[2.003s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_cpp_examples) by extension 'colcon_pkg'
+[2.003s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_cpp_examples) by extensions ['colcon_meta']
+[2.003s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_cpp_examples) by extension 'colcon_meta'
+[2.004s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_cpp_examples) by extensions ['ros']
+[2.004s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_cpp_examples) by extension 'ros'
+[2.006s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arduinobot_cpp_examples' with type 'ros.ament_cmake' and name 'arduinobot_cpp_examples'[0m
+[2.006s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_description) by extensions ['ignore', 'ignore_ament_install']
+[2.007s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_description) by extension 'ignore'
+[2.007s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_description) by extension 'ignore_ament_install'
+[2.007s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_description) by extensions ['colcon_pkg']
+[2.007s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_description) by extension 'colcon_pkg'
+[2.007s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_description) by extensions ['colcon_meta']
+[2.007s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_description) by extension 'colcon_meta'
+[2.007s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_description) by extensions ['ros']
+[2.007s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_description) by extension 'ros'
+[2.014s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arduinobot_description' with type 'ros.ament_cmake' and name 'arduinobot_description'[0m
+[2.014s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[2.014s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_moveit) by extension 'ignore'
+[2.014s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_moveit) by extension 'ignore_ament_install'
+[2.014s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_moveit) by extensions ['colcon_pkg']
+[2.015s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_moveit) by extension 'colcon_pkg'
+[2.015s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_moveit) by extensions ['colcon_meta']
+[2.015s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_moveit) by extension 'colcon_meta'
+[2.015s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_moveit) by extensions ['ros']
+[2.015s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_moveit) by extension 'ros'
+[2.016s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arduinobot_moveit' with type 'ros.ament_cmake' and name 'arduinobot_moveit'[0m
+[2.016s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.016s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_msgs) by extension 'ignore'
+[2.016s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_msgs) by extension 'ignore_ament_install'
+[2.016s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_msgs) by extensions ['colcon_pkg']
+[2.017s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_msgs) by extension 'colcon_pkg'
+[2.017s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_msgs) by extensions ['colcon_meta']
+[2.017s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_msgs) by extension 'colcon_meta'
+[2.017s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_msgs) by extensions ['ros']
+[2.017s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_msgs) by extension 'ros'
+[2.019s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arduinobot_msgs' with type 'ros.ament_cmake' and name 'arduinobot_msgs'[0m
+[2.019s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[2.020s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_py_examples) by extension 'ignore'
+[2.020s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_py_examples) by extension 'ignore_ament_install'
+[2.020s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_py_examples) by extensions ['colcon_pkg']
+[2.020s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_py_examples) by extension 'colcon_pkg'
+[2.020s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_py_examples) by extensions ['colcon_meta']
+[2.020s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_py_examples) by extension 'colcon_meta'
+[2.021s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_py_examples) by extensions ['ros']
+[2.021s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_py_examples) by extension 'ros'
+[2.025s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arduinobot_py_examples' with type 'ros.ament_python' and name 'arduinobot_py_examples'[0m
+[2.025s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_remote) by extensions ['ignore', 'ignore_ament_install']
+[2.026s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_remote) by extension 'ignore'
+[2.026s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_remote) by extension 'ignore_ament_install'
+[2.026s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_remote) by extensions ['colcon_pkg']
+[2.026s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_remote) by extension 'colcon_pkg'
+[2.026s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_remote) by extensions ['colcon_meta']
+[2.026s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_remote) by extension 'colcon_meta'
+[2.026s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_remote) by extensions ['ros']
+[2.026s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_remote) by extension 'ros'
+[2.029s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arduinobot_remote' with type 'ros.ament_cmake' and name 'arduinobot_remote'[0m
+[2.029s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_utils) by extensions ['ignore', 'ignore_ament_install']
+[2.030s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_utils) by extension 'ignore'
+[2.030s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_utils) by extension 'ignore_ament_install'
+[2.030s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_utils) by extensions ['colcon_pkg']
+[2.030s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_utils) by extension 'colcon_pkg'
+[2.030s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_utils) by extensions ['colcon_meta']
+[2.030s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_utils) by extension 'colcon_meta'
+[2.030s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_utils) by extensions ['ros']
+[2.030s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/arduinobot_utils) by extension 'ros'
+[2.031s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/arduinobot_utils' with type 'ros.ament_cmake' and name 'arduinobot_utils'[0m
+[2.032s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[2.032s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[2.032s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[2.032s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[2.032s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[2.259s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'arduinobot_bringup' in 'src/arduinobot_bringup'
+[2.259s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'arduinobot_controller' in 'src/arduinobot_controller'
+[2.259s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'arduinobot_description' in 'src/arduinobot_description'
+[2.259s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'arduinobot_moveit' in 'src/arduinobot_moveit'
+[2.259s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'arduinobot_msgs' in 'src/arduinobot_msgs'
+[2.259s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'arduinobot_cpp_examples' in 'src/arduinobot_cpp_examples'
+[2.259s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'arduinobot_py_examples' in 'src/arduinobot_py_examples'
+[2.259s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'arduinobot_utils' in 'src/arduinobot_utils'
+[2.261s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[2.262s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[2.330s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 9 installed packages in /home/raz/projects/manipulator-project/arduinobot_ws/install[0m
+[2.331s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/raz/ros2_ws/install[0m
+[2.332s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/raz/projects/ros2_robotics_simulation/ros2_ws/install[0m
+[2.335s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 444 installed packages in /opt/ros/humble[0m
+[2.338s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[3.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arduinobot_remote' build argument 'cmake_args' from command line to 'None'
+[3.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arduinobot_remote' build argument 'cmake_target' from command line to 'None'
+[3.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arduinobot_remote' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arduinobot_remote' build argument 'cmake_clean_cache' from command line to 'False'
+[3.019s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arduinobot_remote' build argument 'cmake_clean_first' from command line to 'False'
+[3.020s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arduinobot_remote' build argument 'cmake_force_configure' from command line to 'False'
+[3.020s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arduinobot_remote' build argument 'ament_cmake_args' from command line to 'None'
+[3.020s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arduinobot_remote' build argument 'catkin_cmake_args' from command line to 'None'
+[3.020s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'arduinobot_remote' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.020s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'arduinobot_remote' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_remote', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote', 'merge_install': False, 'path': '/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_remote', 'symlink_install': False, 'test_result_base': None}[0m
+[3.021s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[3.024s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[3.024s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_remote' with build type 'ament_cmake'
+[3.024s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_remote'
+[3.124s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.124s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.124s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[3.258s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_remote': CMAKE_PREFIX_PATH=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit:/home/raz/ros2_ws/install/manipulator_urdf:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_utils:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_description:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake /home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_remote -DCMAKE_INSTALL_PREFIX=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote[0m
+[13.327s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_remote' returned '0': CMAKE_PREFIX_PATH=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit:/home/raz/ros2_ws/install/manipulator_urdf:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_utils:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_description:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake /home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_remote -DCMAKE_INSTALL_PREFIX=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote[0m
+[13.331s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_remote': CMAKE_PREFIX_PATH=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit:/home/raz/ros2_ws/install/manipulator_urdf:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_utils:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_description:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_remote -- -j12 -l12[0m
+[14.235s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_remote' returned '0': CMAKE_PREFIX_PATH=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit:/home/raz/ros2_ws/install/manipulator_urdf:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_utils:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_description:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_remote -- -j12 -l12[0m
+[14.278s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_remote': CMAKE_PREFIX_PATH=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit:/home/raz/ros2_ws/install/manipulator_urdf:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_utils:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_description:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --install /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_remote[0m
+[14.330s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(arduinobot_remote)
+[14.332s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_remote' returned '0': CMAKE_PREFIX_PATH=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit:/home/raz/ros2_ws/install/manipulator_urdf:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_utils:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_description:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --install /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_remote[0m
+[14.484s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote' for CMake module files
+[14.485s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote' for CMake config files
+[14.486s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arduinobot_remote', 'cmake_prefix_path')
+[14.486s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/cmake_prefix_path.ps1'
+[14.522s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/cmake_prefix_path.dsv'
+[14.544s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/cmake_prefix_path.sh'
+[14.546s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/lib'
+[14.547s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arduinobot_remote', 'ld_library_path_lib')
+[14.547s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/ld_library_path_lib.ps1'
+[14.548s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/ld_library_path_lib.dsv'
+[14.550s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/ld_library_path_lib.sh'
+[14.551s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/bin'
+[14.552s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/lib/pkgconfig/arduinobot_remote.pc'
+[14.552s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/lib/python3.10/site-packages'
+[14.553s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/bin'
+[14.554s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.ps1'
+[14.556s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.dsv'
+[14.559s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.sh'
+[14.561s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.bash'
+[14.610s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.zsh'
+[14.631s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/colcon-core/packages/arduinobot_remote)
+[14.633s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(arduinobot_remote)
+[14.634s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote' for CMake module files
+[14.635s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote' for CMake config files
+[14.635s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arduinobot_remote', 'cmake_prefix_path')
+[14.636s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/cmake_prefix_path.ps1'
+[14.637s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/cmake_prefix_path.dsv'
+[14.638s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/cmake_prefix_path.sh'
+[14.640s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/lib'
+[14.641s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('arduinobot_remote', 'ld_library_path_lib')
+[14.641s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/ld_library_path_lib.ps1'
+[14.643s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/ld_library_path_lib.dsv'
+[14.644s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/ld_library_path_lib.sh'
+[14.645s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/bin'
+[14.646s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/lib/pkgconfig/arduinobot_remote.pc'
+[14.646s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/lib/python3.10/site-packages'
+[14.646s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/bin'
+[14.647s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.ps1'
+[14.649s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.dsv'
+[14.651s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.sh'
+[14.652s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.bash'
+[14.653s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.zsh'
+[14.654s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote/share/colcon-core/packages/arduinobot_remote)
+[14.655s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[14.656s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[14.656s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[14.656s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[14.717s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.717s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.717s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[14.758s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[14.759s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/raz/projects/manipulator-project/arduinobot_ws/install/local_setup.ps1'
+[14.773s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/raz/projects/manipulator-project/arduinobot_ws/install/_local_setup_util_ps1.py'
+[14.794s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/raz/projects/manipulator-project/arduinobot_ws/install/setup.ps1'
+[14.796s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/raz/projects/manipulator-project/arduinobot_ws/install/local_setup.sh'
+[14.797s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/raz/projects/manipulator-project/arduinobot_ws/install/_local_setup_util_sh.py'
+[14.798s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/raz/projects/manipulator-project/arduinobot_ws/install/setup.sh'
+[14.800s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/raz/projects/manipulator-project/arduinobot_ws/install/local_setup.bash'
+[14.801s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/raz/projects/manipulator-project/arduinobot_ws/install/setup.bash'
+[14.804s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/raz/projects/manipulator-project/arduinobot_ws/install/local_setup.zsh'
+[14.805s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/raz/projects/manipulator-project/arduinobot_ws/install/setup.zsh'

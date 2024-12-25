@@ -34,7 +34,7 @@ private:
 
     rclcpp_action::GoalResponse goalCallback(const rclcpp_action::GoalUUID& uuid, std::shared_ptr<const arduinobot_msgs::action::ArduinobotTask::Goal> goal){
 
-        RCLCPP_INFO_STREAM(rclcpp::get_logger("rclcpp"), "Receivced goal request with task_number: %d" << goal->task_number);
+        RCLCPP_INFO_STREAM(rclcpp::get_logger("rclcpp"), "Receivced goal request with task_number: " << goal->task_number);
         return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
     }
 
@@ -58,40 +58,39 @@ private:
         return rclcpp_action::CancelResponse::ACCEPT;
     }
 
-    void execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask>> goal_handle){
-
+    void execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<arduinobot_msgs::action::ArduinobotTask>> goal_handle) {
         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Executing goal");
-        rclcpp::Rate loop_rate(1);
 
-        if(!arm_move_group_){
-
+        if(!arm_move_group_) {
             arm_move_group_ = std::make_shared<moveit::planning_interface::MoveGroupInterface>(shared_from_this(), "arm");
         }
-        if(!gripper_move_group_){
-
+        if(!gripper_move_group_) {
             gripper_move_group_ = std::make_shared<moveit::planning_interface::MoveGroupInterface>(shared_from_this(), "gripper");
         }
 
         auto result = std::make_shared<arduinobot_msgs::action::ArduinobotTask::Result>();
+        result->success = false;  // Default to false, set true only after successful execution
 
-        if(goal_handle->get_goal()->task_number == 0){
-
+        // Set goals based on task number
+        if(goal_handle->get_goal()->task_number == 0) {
             arm_joint_goal_ = {0.0, 0.0, 0.0};
             gripper_joint_goal_ = {-0.7, 0.7};
         }
-        else if(goal_handle->get_goal()->task_number == 1){
-
+        else if(goal_handle->get_goal()->task_number == 1) {
             arm_joint_goal_ = {-1.4, -0.6, -0.07};
             gripper_joint_goal_ = {0.0, 0.0};
         }
-        else if(goal_handle->get_goal()->task_number == 2){
-
+        else if(goal_handle->get_goal()->task_number == 2) {
             arm_joint_goal_ = {-1.57, 0.0, -0.9};
             gripper_joint_goal_ = {0.0, 0.0};
         }
-        else{
-
+        else if(goal_handle->get_goal()->task_number == 3) {
+            arm_joint_goal_ = {0.0, 0.0, 0.0};
+            gripper_joint_goal_ = {0.0, 0.0};
+        }
+        else {
             RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Invalid Task Number.");
+            goal_handle->abort(result);
             return;
         }
 
@@ -101,9 +100,9 @@ private:
         bool arm_within_bounds = arm_move_group_->setJointValueTarget(arm_joint_goal_);
         bool gripper_within_bounds = gripper_move_group_->setJointValueTarget(gripper_joint_goal_);
 
-        if(!arm_within_bounds || !gripper_within_bounds){
-
+        if(!arm_within_bounds || !gripper_within_bounds) {
             RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Target Position out of boundaries");
+            goal_handle->abort(result);
             return;
         }
 
@@ -111,14 +110,26 @@ private:
         bool arm_plan_success = (arm_move_group_->plan(arm_plan) == moveit::core::MoveItErrorCode::SUCCESS);
         bool gripper_plan_success = (gripper_move_group_->plan(gripper_plan) == moveit::core::MoveItErrorCode::SUCCESS);
 
-        if(arm_plan_success && gripper_plan_success){
+        if(arm_plan_success && gripper_plan_success) {
+            // Execute arm movement first and wait for completion
+            auto arm_result = arm_move_group_->execute(arm_plan);
+            if(arm_result != moveit::core::MoveItErrorCode::SUCCESS) {
+                RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Arm execution failed");
+                goal_handle->abort(result);
+                return;
+            }
 
-            arm_move_group_->move();
-            gripper_move_group_->move();
+            // Then execute gripper movement and wait for completion
+            auto gripper_result = gripper_move_group_->execute(gripper_plan);
+            if(gripper_result != moveit::core::MoveItErrorCode::SUCCESS) {
+                RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Gripper execution failed");
+                goal_handle->abort(result);
+                return;
+            }
         }
-        else{
-
-            RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "One or more planner has failed.");
+        else {
+            RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Planning failed");
+            goal_handle->abort(result);
             return;
         }
 

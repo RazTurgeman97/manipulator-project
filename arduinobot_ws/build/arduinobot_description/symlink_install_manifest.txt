@@ -18,7 +18,6 @@
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/rviz/display.rviz
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/display.launch.py
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.py
-/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/launch/gazebo.launch.xml
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes_test/base_link.STL
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes_test/base_plate.STL
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes_test/basement.STL

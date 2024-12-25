@@ -69,9 +69,7 @@ def generate_launch_description():
                            executable='parameter_bridge',
                            arguments=['/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
                                       "/rgb_camera/image_raw@sensor_msgs/msg/Image[gz.msgs.Image",
-                                      "/rgb_camera/camera_info@sensor_msgs/msg/CameraInfo[gz.msgs.CameraInfo",
-                                    #   '/cmd_vel@geometry_msgs/msg/Twist[gz.msgs.Twist',
-                                    #   '/odometry@nav_msgs/msg/Odometry[gz.msgs.Odometry',
+                                      "/rgb_camera/camera_info@sensor_msgs/msg/CameraInfo[gz.msgs.CameraInfo"
                             ]
     )
     

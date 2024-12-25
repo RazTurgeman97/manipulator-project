@@ -313,8 +313,8 @@ message(STATUS "Execute custom install script")
 # install("TARGETS" "task_server_node" "DESTINATION" "lib/arduinobot_remote")
 include("/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_remote/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(PROGRAMS "arduinobot_remote/task_server.py" "DESTINATION" "lib/arduinobot_remote")
-ament_cmake_symlink_install_programs("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_remote" PROGRAMS "arduinobot_remote/task_server.py" "DESTINATION" "lib/arduinobot_remote")
+# install(PROGRAMS "arduinobot_remote/task_server.py" "arduinobot_remote/alexa_interface.py" "DESTINATION" "lib/arduinobot_remote")
+ament_cmake_symlink_install_programs("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_remote" PROGRAMS "arduinobot_remote/task_server.py" "arduinobot_remote/alexa_interface.py" "DESTINATION" "lib/arduinobot_remote")
 
 # install("TARGETS" "task_server" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib")
 include("/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_remote/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")

@@ -1,0 +1,122 @@
+[0.022s] Invoking command in '/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/build/arduinobot_cpp_examples': AMENT_PREFIX_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs:/home/raz/ros2_ws/install/manipulator_urdf:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_utils:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_description:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/src/arduinobot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples
+[0.311s] -- The C compiler identification is GNU 11.4.0
+[0.312s] -- The CXX compiler identification is GNU 11.4.0
+[0.312s] -- Detecting C compiler ABI info
+[0.312s] -- Detecting C compiler ABI info - done
+[0.312s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.312s] -- Detecting C compile features
+[0.312s] -- Detecting C compile features - done
+[0.312s] -- Detecting CXX compiler ABI info
+[0.312s] -- Detecting CXX compiler ABI info - done
+[0.313s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.313s] -- Detecting CXX compile features
+[0.313s] -- Detecting CXX compile features - done
+[0.313s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.423s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.571s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.655s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.666s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.683s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.709s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.744s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.816s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.820s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.848s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.858s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.004s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.005s] -- Found Threads: TRUE  
+[1.081s] -- Found arduinobot_msgs: 0.0.0 (/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake)
+[1.160s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.174s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.209s] -- Found moveit_ros_planning_interface: 2.5.6 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[2.659s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.866s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.029s] -- Found parameter_traits: 0.3.9 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.043s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.073s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.141s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.199s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.199s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.448s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.544s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[3.932s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[4.057s] -- Configuring done (4.0s)
+[4.133s] -- Generating done (0.1s)
+[4.163s] -- Build files have been written to: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/build/arduinobot_cpp_examples
+[4.182s] Invoked command in '/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs:/home/raz/ros2_ws/install/manipulator_urdf:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_utils:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_description:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/src/arduinobot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples
+[4.183s] Invoking command in '/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/build/arduinobot_cpp_examples': AMENT_PREFIX_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs:/home/raz/ros2_ws/install/manipulator_urdf:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_utils:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_description:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/build/arduinobot_cpp_examples -- -j12 -l12
+[4.203s] [  4%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[4.206s] [  9%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[4.206s] [ 18%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[4.206s] [ 18%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[4.208s] [ 22%] [32mBuilding CXX object CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o[0m
+[4.208s] [ 27%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[4.208s] [ 31%] [32mBuilding CXX object CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o[0m
+[4.208s] [ 36%] [32mBuilding CXX object CMakeFiles/simple_moveit_interface.dir/src/simple_moveit_interface.cpp.o[0m
+[4.208s] [ 40%] [32mBuilding CXX object CMakeFiles/simple_action_client_node.dir/rclcpp_components/node_main_simple_action_client_node.cpp.o[0m
+[4.209s] [ 45%] [32mBuilding CXX object CMakeFiles/simple_action_server_node.dir/rclcpp_components/node_main_simple_action_server_node.cpp.o[0m
+[4.224s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o[0m
+[12.456s] [ 59%] [32m[1mLinking CXX executable simple_action_client_node[0m
+[12.457s] [ 59%] [32m[1mLinking CXX executable simple_action_server_node[0m
+[12.457s] [ 68%] [32m[1mLinking CXX executable simple_parameter[0m
+[12.458s] [ 68%] [32m[1mLinking CXX executable simple_service_server[0m
+[12.459s] [ 77%] [32m[1mLinking CXX executable simple_service_client[0m
+[12.459s] [ 77%] [32m[1mLinking CXX executable simple_publisher[0m
+[12.592s] [ 81%] [32m[1mLinking CXX shared library libsimple_action_server.so[0m
+[12.738s] [ 86%] [32m[1mLinking CXX shared library libsimple_action_client.so[0m
+[19.015s] [ 90%] [32m[1mLinking CXX executable simple_subscriber[0m
+[19.224s] [ 95%] [32m[1mLinking CXX executable simple_lifecycle_node[0m
+[20.135s] [ 95%] Built target simple_action_server
+[20.182s] [ 95%] Built target simple_action_client
+[20.925s] [ 95%] Built target simple_parameter
+[20.933s] [ 95%] Built target simple_action_client_node
+[20.970s] [ 95%] Built target simple_action_server_node
+[21.018s] [ 95%] Built target simple_lifecycle_node
+[21.179s] [ 95%] Built target simple_service_client
+[21.198s] [ 95%] Built target simple_service_server
+[21.229s] [ 95%] Built target simple_publisher
+[21.300s] [ 95%] Built target simple_subscriber
+[49.900s] [100%] [32m[1mLinking CXX executable simple_moveit_interface[0m
+[57.286s] [100%] Built target simple_moveit_interface
+[57.461s] Invoked command in '/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs:/home/raz/ros2_ws/install/manipulator_urdf:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_utils:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_description:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/build/arduinobot_cpp_examples -- -j12 -l12
+[57.466s] Invoking command in '/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/build/arduinobot_cpp_examples': AMENT_PREFIX_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs:/home/raz/ros2_ws/install/manipulator_urdf:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_utils:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_description:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/build/arduinobot_cpp_examples
+[57.472s] -- Install configuration: ""
+[57.473s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_action_server_node
+[57.475s] -- Set runtime path of "/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_action_server_node" to ""
+[57.475s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_action_client_node
+[57.476s] -- Set runtime path of "/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_action_client_node" to ""
+[57.477s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher
+[57.479s] -- Set runtime path of "/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher" to ""
+[57.480s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber
+[57.488s] -- Set runtime path of "/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber" to ""
+[57.488s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_parameter
+[57.489s] -- Set runtime path of "/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_parameter" to ""
+[57.490s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_service_server
+[57.492s] -- Set runtime path of "/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_service_server" to ""
+[57.492s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_service_client
+[57.494s] -- Set runtime path of "/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_service_client" to ""
+[57.494s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_moveit_interface
+[57.495s] -- Set runtime path of "/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_moveit_interface" to ""
+[57.495s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_lifecycle_node
+[57.500s] -- Set runtime path of "/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_lifecycle_node" to ""
+[57.500s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/libsimple_action_server.so
+[57.502s] -- Set runtime path of "/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/libsimple_action_server.so" to ""
+[57.502s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/libsimple_action_client.so
+[57.504s] -- Set runtime path of "/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/lib/libsimple_action_client.so" to ""
+[57.504s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples
+[57.505s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_examples
+[57.505s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.sh
+[57.505s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.dsv
+[57.505s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.sh
+[57.505s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.dsv
+[57.506s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.bash
+[57.506s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.sh
+[57.506s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.zsh
+[57.506s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.dsv
+[57.506s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv
+[57.506s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/packages/arduinobot_cpp_examples
+[57.506s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/rclcpp_components/arduinobot_cpp_examples
+[57.506s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig.cmake
+[57.507s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig-version.cmake
+[57.528s] -- Installing: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.xml
+[57.579s] Invoked command in '/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs:/home/raz/ros2_ws/install/manipulator_urdf:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_utils:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_remote:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_cpp_examples:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_description:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_bringup:/home/raz/projects/ros2_robotics_simulation/ros2_ws/install/my_robot_description:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/build/arduinobot_cpp_examples

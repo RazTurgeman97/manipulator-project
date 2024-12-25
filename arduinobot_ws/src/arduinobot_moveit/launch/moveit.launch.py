@@ -11,14 +11,19 @@ def generate_launch_description():
 
     is_sim_arg = DeclareLaunchArgument(
         "is_sim",
-        default_value="True"
+        default_value="True",
+        description="Set to True for simulation, False for real hardware"
     )
     
     is_sim = LaunchConfiguration("is_sim")
     
     moveit_config = (
         MoveItConfigsBuilder("arduinobot", package_name="arduinobot_moveit")
-        .robot_description(file_path=os.path.join(get_package_share_directory("arduinobot_description"), "urdf", "arduinobot.urdf.xacro"))
+        .robot_description(file_path=os.path.join(
+            get_package_share_directory("arduinobot_description"),
+            "urdf",
+            "arduinobot.urdf.xacro")
+        )
         .robot_description_semantic(file_path="config/arduinobot.srdf")
         .trajectory_execution(file_path="config/moveit_controllers.yaml")
         .to_moveit_configs()
@@ -28,7 +33,11 @@ def generate_launch_description():
         package="moveit_ros_move_group",
         executable="move_group",
         output="screen",
-        parameters=[moveit_config.to_dict(), {"use_sim_time": is_sim}, {"publish_robot_description_semantic": True}],
+        parameters=[
+            moveit_config.to_dict(),
+            {"use_sim_time": is_sim},
+            {"publish_robot_description_semantic": True}
+        ],
         arguments=["--ros-args", "--log-level", "info"]
     )
     
@@ -43,7 +52,8 @@ def generate_launch_description():
         parameters=[moveit_config.robot_description,
                     moveit_config.robot_description_semantic,
                     moveit_config.robot_description_kinematics,
-                    moveit_config.joint_limits]
+                    moveit_config.joint_limits
+        ]
     )
     
     return LaunchDescription([
