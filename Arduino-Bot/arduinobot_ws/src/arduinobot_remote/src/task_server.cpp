@@ -33,7 +33,7 @@ private:
       const rclcpp_action::GoalUUID& uuid,
       std::shared_ptr<const arduinobot_msgs::action::ArduinobotTask::Goal> goal)
   {
-    RCLCPP_INFO(get_logger(), "Received goal request with id %d", goal->task_number);
+    RCLCPP_INFO(get_logger(), "Received goal request with id ", goal->task_number);
     (void)uuid;
     return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
   }
@@ -73,7 +73,7 @@ private:
     if (goal_handle->get_goal()->task_number == 0)
     {
       arm_joint_goal = {0.0, 0.0, 0.0};
-      gripper_joint_goal = {-0.7, 0.7};
+      gripper_joint_goal = {-0.5, 0.5};
     }
     else if (goal_handle->get_goal()->task_number == 1)
     {
@@ -82,7 +82,12 @@ private:
     }
     else if (goal_handle->get_goal()->task_number == 2)
     {
-      arm_joint_goal = {-1.57,0.0,-0.9};
+      arm_joint_goal = {-1.57, 0.0, -0.9};
+      gripper_joint_goal = {0.0, 0.0};
+    }
+    else if (goal_handle->get_goal()->task_number == 3)
+    {
+      arm_joint_goal = {0.0, 0.0, 0.0};
       gripper_joint_goal = {0.0, 0.0};
     }
     else

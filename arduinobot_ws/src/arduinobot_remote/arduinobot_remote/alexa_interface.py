@@ -95,17 +95,17 @@ class WakeIntentHandler(AbstractRequestHandler):
         return handler_input.response_builder.response
     
 
-class HomeIntentHandler(AbstractRequestHandler):
+class OriginIntentHandler(AbstractRequestHandler):
     def can_handle(self, handler_input):
         # type: (HandlerInput) -> bool
-        return is_intent_name("HomeIntent")(handler_input)
+        return is_intent_name("OriginIntent")(handler_input)
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        speech_text = "Going back to origin."
+        speech_text = "Going back to original position."
 
         handler_input.response_builder.speak(speech_text).set_card(
-            SimpleCard("Home", speech_text)).set_should_end_session(
+            SimpleCard("Origin", speech_text)).set_should_end_session(
             True)
         
         goal = ArduinobotTask.Goal()

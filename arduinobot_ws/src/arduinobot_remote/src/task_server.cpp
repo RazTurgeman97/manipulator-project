@@ -73,8 +73,8 @@ private:
 
         // Set goals based on task number
         if(goal_handle->get_goal()->task_number == 0) {
-            arm_joint_goal_ = {0.0, 0.0, 0.0};
-            gripper_joint_goal_ = {-0.7, 0.7};
+            arm_joint_goal_ = {0.0, 0.0, 0.05};
+            gripper_joint_goal_ = {-0.5, 0.5};
         }
         else if(goal_handle->get_goal()->task_number == 1) {
             arm_joint_goal_ = {-1.4, -0.6, -0.07};
@@ -111,16 +111,16 @@ private:
         bool gripper_plan_success = (gripper_move_group_->plan(gripper_plan) == moveit::core::MoveItErrorCode::SUCCESS);
 
         if(arm_plan_success && gripper_plan_success) {
-            // Execute arm movement first and wait for completion
+            
             auto arm_result = arm_move_group_->execute(arm_plan);
+            auto gripper_result = gripper_move_group_->execute(gripper_plan);
+
             if(arm_result != moveit::core::MoveItErrorCode::SUCCESS) {
                 RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Arm execution failed");
                 goal_handle->abort(result);
                 return;
             }
 
-            // Then execute gripper movement and wait for completion
-            auto gripper_result = gripper_move_group_->execute(gripper_plan);
             if(gripper_result != moveit::core::MoveItErrorCode::SUCCESS) {
                 RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Gripper execution failed");
                 goal_handle->abort(result);

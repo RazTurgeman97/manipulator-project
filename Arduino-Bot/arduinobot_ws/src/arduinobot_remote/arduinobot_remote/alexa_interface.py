@@ -97,6 +97,26 @@ class WakeIntentHandler(AbstractRequestHandler):
         action_client.send_goal_async(goal)
 
         return handler_input.response_builder.response
+    
+    
+class HomeIntentHandler(AbstractRequestHandler):
+    def can_handle(self, handler_input):
+        # type: (HandlerInput) -> bool
+        return is_intent_name("HomeIntent")(handler_input)
+
+    def handle(self, handler_input):
+        # type: (HandlerInput) -> Response
+        speech_text = "Going back to original position."
+
+        handler_input.response_builder.speak(speech_text).set_card(
+            SimpleCard("Home", speech_text)).set_should_end_session(
+            True)
+            
+        goal = ArduinobotTask.Goal()
+        goal.task_number = 3
+        action_client.send_goal_async(goal)
+
+        return handler_input.response_builder.response
 
 
 class AllExceptionHandler(AbstractExceptionHandler):
