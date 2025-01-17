@@ -310,8 +310,23 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
+# install(FILES "arduinobot_controller.xml" "DESTINATION" "share/arduinobot_controller/")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" FILES "arduinobot_controller.xml" "DESTINATION" "share/arduinobot_controller/")
+
 # install(DIRECTORY "config" "launch" "DESTINATION" "share/arduinobot_controller")
 ament_cmake_symlink_install_directory("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" DIRECTORY "config" "launch" "DESTINATION" "share/arduinobot_controller")
+
+# install(DIRECTORY "config" "launch" "DESTINATION" "lib")
+ament_cmake_symlink_install_directory("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" DIRECTORY "config" "launch" "DESTINATION" "lib")
+
+# install(DIRECTORY "include" "DESTINATION" "include")
+ament_cmake_symlink_install_directory("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" DIRECTORY "include" "DESTINATION" "include")
+
+# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/arduinobot_controller/environment")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/arduinobot_controller/environment")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/arduinobot_controller/environment")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/arduinobot_controller/environment")
 
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
@@ -348,6 +363,15 @@ ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduin
 
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_index/share/ament_index/resource_index/packages/arduinobot_controller" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_index/share/ament_index/resource_index/packages/arduinobot_controller" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/arduinobot_controller" "DESTINATION" "share/ament_index/resource_index/hardware_interface__pluginlib__plugin")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/arduinobot_controller" "DESTINATION" "share/ament_index/resource_index/hardware_interface__pluginlib__plugin")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/arduinobot_controller/cmake")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/arduinobot_controller/cmake")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/arduinobot_controller/cmake")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/arduinobot_controller/cmake")
 
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_core/arduinobot_controllerConfig.cmake" "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_core/arduinobot_controllerConfig-version.cmake" "DESTINATION" "share/arduinobot_controller/cmake")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_core/arduinobot_controllerConfig.cmake" "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_core/arduinobot_controllerConfig-version.cmake" "DESTINATION" "share/arduinobot_controller/cmake")

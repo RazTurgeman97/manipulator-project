@@ -1,0 +1,45 @@
+[0.623s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_firmware -- -j12 -l12
+[0.645s] [  0%] Built target ament_cmake_python_symlink_arduinobot_firmware
+[0.732s] [ 50%] Built target simple_serial_receiver
+[0.732s] [100%] Built target simple_serial_transmitter
+[0.845s] running egg_info
+[0.867s] writing arduinobot_firmware.egg-info/PKG-INFO
+[0.868s] writing dependency_links to arduinobot_firmware.egg-info/dependency_links.txt
+[0.869s] writing top-level names to arduinobot_firmware.egg-info/top_level.txt
+[0.928s] reading manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[0.929s] writing manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[1.001s] [100%] Built target ament_cmake_python_build_arduinobot_firmware_egg
+[1.866s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_firmware -- -j12 -l12
+[1.867s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --install /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_firmware
+[1.867s] -- Install configuration: ""
+[1.867s] -- Execute custom install script
+[1.867s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/pythonpath.sh
+[1.867s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/pythonpath.dsv
+[1.867s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[1.868s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.868s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.868s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[1.868s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/__init__.py
+[1.868s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_receiver.py
+[1.868s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_transmitter.py
+[1.868s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/bin/simple_serial_transmitter
+[1.868s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/bin/simple_serial_receiver
+[1.869s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter.py
+[1.869s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver.py
+[1.869s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduinobot_firmware
+[1.869s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduinobot_firmware
+[1.869s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.sh
+[1.869s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.dsv
+[1.869s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.sh
+[1.869s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.dsv
+[1.869s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.bash
+[1.870s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.sh
+[1.870s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.zsh
+[1.870s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.dsv
+[1.870s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.dsv
+[1.870s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/packages/arduinobot_firmware
+[1.870s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig.cmake
+[1.870s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig-version.cmake
+[1.870s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.xml
+[1.900s] Listing '/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware'...
+[1.905s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_py_examples:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --install /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_firmware

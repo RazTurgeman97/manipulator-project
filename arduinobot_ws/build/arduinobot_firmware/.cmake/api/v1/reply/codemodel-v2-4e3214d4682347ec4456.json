@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-68853d5a32b170234984.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "arduinobot_firmware",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_arduinobot_firmware_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_arduinobot_firmware_egg-b31e47968c7a0e9aa09b.json",
+					"name" : "ament_cmake_python_build_arduinobot_firmware_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_arduinobot_firmware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_arduinobot_firmware-b91ef8e636f28a7fd256.json",
+					"name" : "ament_cmake_python_symlink_arduinobot_firmware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arduinobot_firmware_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduinobot_firmware_uninstall-deab1f0c83a8509ae2df.json",
+					"name" : "arduinobot_firmware_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_serial_receiver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_serial_receiver-e5a2685d3537ad287d88.json",
+					"name" : "simple_serial_receiver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_serial_transmitter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_serial_transmitter-60dbffe72fc5cbc450e8.json",
+					"name" : "simple_serial_transmitter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ecd35ab6beb7a8eeeef8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_firmware",
+		"source" : "/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_firmware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

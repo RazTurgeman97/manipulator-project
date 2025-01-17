@@ -1,0 +1,111 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found hardware_interface: 2.46.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/include;/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.7s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller
+[ 50%] [32mBuilding CXX object CMakeFiles/arduinobot_controller.dir/src/arduinobot_interface.cpp.o[0m
+[01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:105:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  105 | CallbackReturn ArduinobotInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K){
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:130:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  130 | CallbackReturn ArduinobotInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K){
+      |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:151:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  151 | hardware_interface::return_type ArduinobotInterface::read([01;35m[Kconst rclcpp::Time & time[m[K,
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:152:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  152 |                                                             [01;35m[Kconst rclcpp::Duration & period[m[K){
+      |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:158:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  158 | hardware_interface::return_type ArduinobotInterface::write([01;35m[Kconst rclcpp::Time & time[m[K,
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:159:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  159 |                                                             [01;35m[Kconst rclcpp::Duration & period[m[K){
+      |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/memory:64[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:3[m[K,
+                 from [01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = hardware_interface::CommandInterface; _Args = {hardware_interface::StateInterface}; _Tp = hardware_interface::CommandInterface][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = hardware_interface::CommandInterface; _Args = {hardware_interface::StateInterface}; _Tp = hardware_interface::CommandInterface; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<hardware_interface::CommandInterface>][m[K’
+[01m[K/usr/include/c++/11/bits/vector.tcc:115:30:[m[K   required from ‘[01m[Kstd::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::emplace_back(_Args&& ...) [with _Args = {hardware_interface::StateInterface}; _Tp = hardware_interface::CommandInterface; _Alloc = std::allocator<hardware_interface::CommandInterface>; std::vector<_Tp, _Alloc>::reference = hardware_interface::CommandInterface&][m[K’
+[01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:96:40:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Khardware_interface::CommandInterface::CommandInterface(hardware_interface::StateInterface)[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/hardware_interface/system_interface.hpp:22[m[K,
+                 from [01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/include/arduinobot_controller/arduinobot_interface.hpp:4[m[K,
+                 from [01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:88:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khardware_interface::ReadWriteHandle::ReadWriteHandle(const string&, const string&, double*)[m[K’
+   88 |   [01;36m[KReadWriteHandle[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:139:26:[m[K [01;36m[Knote: [m[K  inherited here
+  139 |   using ReadWriteHandle::[01;36m[KReadWriteHandle[m[K;
+      |                          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:139:26:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:95:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khardware_interface::ReadWriteHandle::ReadWriteHandle(const string&)[m[K’
+   95 |   explicit [01;36m[KReadWriteHandle[m[K(const std::string & interface_name) : ReadOnlyHandle(interface_name) {}
+      |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:139:26:[m[K [01;36m[Knote: [m[K  inherited here
+  139 |   using ReadWriteHandle::[01;36m[KReadWriteHandle[m[K;
+      |                          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:95:48:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Khardware_interface::StateInterface[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   95 |   explicit ReadWriteHandle([01;36m[Kconst std::string & interface_name[m[K) : ReadOnlyHandle(interface_name) {}
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:97:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khardware_interface::ReadWriteHandle::ReadWriteHandle(const char*)[m[K’
+   97 |   explicit [01;36m[KReadWriteHandle[m[K(const char * interface_name) : ReadOnlyHandle(interface_name) {}
+      |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:139:26:[m[K [01;36m[Knote: [m[K  inherited here
+  139 |   using ReadWriteHandle::[01;36m[KReadWriteHandle[m[K;
+      |                          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:97:41:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Khardware_interface::StateInterface[m[K’ to ‘[01m[Kconst char*[m[K’
+   97 |   explicit ReadWriteHandle([01;36m[Kconst char * interface_name[m[K) : ReadOnlyHandle(interface_name) {}
+      |                            [01;36m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:99:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khardware_interface::ReadWriteHandle::ReadWriteHandle(const hardware_interface::ReadWriteHandle&)[m[K’
+   99 |   [01;36m[KReadWriteHandle[m[K(const ReadWriteHandle & other) = default;
+      |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:139:26:[m[K [01;36m[Knote: [m[K  inherited here
+  139 |   using ReadWriteHandle::[01;36m[KReadWriteHandle[m[K;
+      |                          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:139:26:[m[K [01;36m[Knote: [m[K  an inherited constructor is not a candidate for initialization from an expression of the same or derived type
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:101:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khardware_interface::ReadWriteHandle::ReadWriteHandle(hardware_interface::ReadWriteHandle&&)[m[K’
+  101 |   [01;36m[KReadWriteHandle[m[K(ReadWriteHandle && other) = default;
+      |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:139:26:[m[K [01;36m[Knote: [m[K  inherited here
+  139 |   using ReadWriteHandle::[01;36m[KReadWriteHandle[m[K;
+      |                          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:139:26:[m[K [01;36m[Knote: [m[K  an inherited constructor is not a candidate for initialization from an expression of the same or derived type
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:137:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khardware_interface::CommandInterface::CommandInterface(hardware_interface::CommandInterface&&)[m[K’
+  137 |   [01;36m[KCommandInterface[m[K(CommandInterface && other) = default;
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/handle.hpp:137:40:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Khardware_interface::StateInterface[m[K’ to ‘[01m[Khardware_interface::CommandInterface&&[m[K’
+  137 |   CommandInterface([01;36m[KCommandInterface && other[m[K) = default;
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/arduinobot_controller.dir/build.make:76: CMakeFiles/arduinobot_controller.dir/src/arduinobot_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arduinobot_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

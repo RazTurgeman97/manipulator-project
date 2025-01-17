@@ -3,12 +3,12 @@
 
 CMakeFiles/task_server.dir/src/task_server.cpp.o
  /home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_remote/src/task_server.cpp
- /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/action/arduinobot_task.hpp
- /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/action/detail/arduinobot_task__builder.hpp
- /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/action/detail/arduinobot_task__struct.hpp
- /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/action/detail/arduinobot_task__traits.hpp
- /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/action/detail/arduinobot_task__type_support.hpp
- /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/arduinobot_task.hpp
+ /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__builder.hpp
+ /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__struct.hpp
+ /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__traits.hpp
+ /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__type_support.hpp
+ /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h

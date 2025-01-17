@@ -1,3 +1,4 @@
+/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/launch/real_robot.launch.py
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/launch/simulated_robot.launch.py
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_bringup/share/ament_index/resource_index/package_run_dependencies/arduinobot_bringup
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_bringup/share/ament_index/resource_index/parent_prefix_path/arduinobot_bringup

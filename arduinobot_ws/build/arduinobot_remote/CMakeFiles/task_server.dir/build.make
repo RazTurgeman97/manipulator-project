@@ -92,16 +92,16 @@ task_server_EXTERNAL_OBJECTS =
 
 libtask_server.so: CMakeFiles/task_server.dir/src/task_server.cpp.o
 libtask_server.so: CMakeFiles/task_server.dir/build.make
-libtask_server.so: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_c.so
-libtask_server.so: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_cpp.so
-libtask_server.so: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_introspection_c.so
-libtask_server.so: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_introspection_cpp.so
-libtask_server.so: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_cpp.so
-libtask_server.so: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_generator_py.so
+libtask_server.so: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_c.so
+libtask_server.so: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_fastrtps_cpp.so
+libtask_server.so: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_introspection_c.so
+libtask_server.so: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_introspection_cpp.so
+libtask_server.so: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_cpp.so
+libtask_server.so: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_generator_py.so
 libtask_server.so: /opt/ros/humble/lib/libcomponent_manager.so
 libtask_server.so: /opt/ros/humble/lib/libmoveit_move_group_interface.so.2.5.6
-libtask_server.so: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_c.so
-libtask_server.so: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_generator_c.so
+libtask_server.so: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_typesupport_c.so
+libtask_server.so: /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/lib/libarduinobot_msgs__rosidl_generator_c.so
 libtask_server.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
 libtask_server.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
 libtask_server.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so

@@ -1,7 +1,0 @@
-[  7%] [32m[1mLinking CXX executable simple_action_client[0m
-[ 14%] [32mBuilding CXX object CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o[0m
-[ 28%] Built target simple_parameter
-[ 42%] Built target simple_service_client
-[ 57%] Built target simple_service_server
-[ 71%] Built target simple_publisher
-[ 85%] Built target simple_subscriber

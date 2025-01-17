@@ -1,0 +1,1 @@
+/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_firmware/ament_cmake_python/arduinobot_firmware/arduinobot_firmware.egg-info/top_level.txt

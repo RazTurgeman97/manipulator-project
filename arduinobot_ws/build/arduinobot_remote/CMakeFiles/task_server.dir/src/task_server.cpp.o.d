@@ -678,8 +678,8 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: \
  /opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
- /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/action/arduinobot_task.hpp \
- /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/action/detail/arduinobot_task__struct.hpp \
+ /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/arduinobot_task.hpp \
+ /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__struct.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp \
@@ -690,10 +690,10 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: \
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.hpp \
- /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/action/detail/arduinobot_task__builder.hpp \
- /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/action/detail/arduinobot_task__traits.hpp \
- /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/action/detail/arduinobot_task__type_support.hpp \
- /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__builder.hpp \
+ /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__traits.hpp \
+ /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__type_support.hpp \
+ /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
  /usr/include/c++/11/cstddef /usr/include/console_bridge/console.h \
