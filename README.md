@@ -10,13 +10,13 @@ Here are two examples demonstrating the robot's voice-activated functionality wi
 
    When the command "Activate Robot" is given, the robot is triggered to start its operation.
 
-   ![Activate Robot](assets/ActivateRobot.GIF)
+   ![Activate Robot](assets/ActivateRobot.gif)
 
 2. **Pick Up Command:**
 
    The "Pick Up" command instructs the robot to pick up an object, showcasing its interaction and movement.
 
-   ![Pick Up](assets/PickUp.GIF)
+   ![Pick Up](assets/PickUp.gif)
 
 ## 🧠 **Course Highlights**
 
