@@ -2,6 +2,22 @@
 
 Welcome to my GitHub repository showcasing projects and exercises from the Udemy course [*"Learn ROS 2 by Building a Real Robot"*](https://www.udemy.com/course/robotics-and-ros-2-learn-by-doing-manipulators). This course adopts a *Learn by Doing* approach, blending theory, practical applications, and hands-on experiments with both simulated and real robots.
 
+## 📹 **Robot in Action**
+
+Here are two examples demonstrating the robot's voice-activated functionality with Alexa:
+
+1. **Activate Robot Command:**
+
+   When the command "Activate Robot" is given, the robot is triggered to start its operation.
+
+   ![Activate Robot](assets/ActivateRobot.GIF)
+
+2. **Pick Up Command:**
+
+   The "Pick Up" command instructs the robot to pick up an object, showcasing its interaction and movement.
+
+   ![Pick Up](assets/PickUp.GIF)
+
 ## 🧠 **Course Highlights**
 
 - **Create a Real Robot**: Build and program a robot from scratch using ROS 2.
