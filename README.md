@@ -18,6 +18,13 @@ Here are two examples demonstrating the robot's voice-activated functionality wi
 
    ![Pick Up](assets/PickUp.gif)
 
+## 🤖 **The Real Robot**
+
+Here's a photo of the actual robot used in the project. This robot is the physical embodiment of the simulated model, featuring the same capabilities and integration.
+
+![Real Robot](assets/RealRobot.jpg)
+
+
 ## 🧠 **Course Highlights**
 
 - **Create a Real Robot**: Build and program a robot from scratch using ROS 2.
