@@ -9,7 +9,7 @@
 // Define the start configuration of the joints
 #define BASE_START 90
 #define SHOULDER_START 90
-#define ELBOW_START 170
+#define ELBOW_START 90
 #define GRIPPER_START 0
 
 // Register the servo motors of each joint

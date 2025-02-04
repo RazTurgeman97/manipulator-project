@@ -1,0 +1,610 @@
+debug: Found portal inhibitor
+debug: Attempted path: /usr/bin/../share/obs/obs-studio/locale/en-US.ini
+debug: Attempted path: /usr/bin/../share/obs/obs-studio/locale.ini
+debug: Attempted path: /usr/bin/../share/obs/obs-studio/themes
+debug: Attempted path: /usr/bin/../share/obs/obs-studio/themes/
+warning: org.freedesktop.portal.Settings version 1 does not support ReadOne
+info: Command Line Arguments: --verbose --log-unfiltered
+info: Platform: Wayland
+info: CPU Name: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+info: CPU Speed: 4526.671MHz
+info: Physical Cores: 6, Logical Cores: 12
+info: Physical Memory: 15827MB Total, 2256MB Free
+info: Kernel Version: Linux 6.8.0-52-generic
+info: Distribution: "Ubuntu" "22.04"
+info: Desktop Environment: ubuntu:GNOME (ubuntu)
+info: Session Type: wayland
+info: Qt Version: 6.2.4 (runtime), 6.2.4 (compiled)
+info: Portable mode: false
+info: OBS 30.2.3 (linux)
+info: ---------------------------------
+info: ---------------------------------
+info: audio settings reset:
+	samples per sec: 48000
+	speakers:        2
+	max buffering:   960 milliseconds
+	buffering type:  dynamically increasing
+info: ---------------------------------
+info: Initializing OpenGL...
+info: Using EGL/Wayland
+info: Initialized EGL 1.5
+debug: Supported EGL Extensions: EGL_ANDROID_blob_cache EGL_ANDROID_native_fence_sync EGL_EXT_buffer_age EGL_EXT_create_context_robustness EGL_EXT_image_dma_buf_import EGL_EXT_image_dma_buf_import_modifiers EGL_EXT_present_opaque EGL_EXT_swap_buffers_with_damage EGL_IMG_context_priority EGL_KHR_cl_event2 EGL_KHR_config_attribs EGL_KHR_context_flush_control EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_get_all_proc_addresses EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image_base EGL_KHR_no_config_context EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_KHR_swap_buffers_with_damage EGL_EXT_pixel_format_float EGL_KHR_wait_sync EGL_MESA_configless_context EGL_MESA_drm_image EGL_MESA_image_dma_buf_export EGL_MESA_query_driver EGL_WL_bind_wayland_display EGL_WL_create_wayland_buffer_from_image 
+info: Loading up OpenGL on adapter Intel Mesa Intel(R) UHD Graphics (CML GT2)
+info: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 23.2.1-1ubuntu3.1~22.04.3, shading language 4.60
+info: ---------------------------------
+info: video settings reset:
+	base resolution:   1920x1080
+	output resolution: 1920x1080
+	downscale filter:  Bicubic
+	fps:               60/1
+	format:            NV12
+	YUV mode:          Rec. 709/Partial
+info: NV12 texture support enabled
+info: P010 texture support not available
+info: Audio monitoring device:
+	name: Default
+	id: default
+info: ---------------------------------
+debug: ---------------------------------
+debug: Loading module: aja-output-ui.so
+warning: No AJA devices found, skipping loading AJA UI plugin
+warning: Failed to initialize module 'aja-output-ui.so'
+debug: ---------------------------------
+debug: Loading module: aja.so
+warning: No AJA devices found, skipping loading AJA plugin
+warning: Failed to initialize module 'aja.so'
+debug: ---------------------------------
+debug: Loading module: decklink-captions.so
+warning: Failed to load 'en-US' text for module: 'decklink-captions.so'
+debug: ---------------------------------
+debug: Loading module: decklink-output-ui.so
+warning: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+debug: ---------------------------------
+debug: Loading module: decklink.so
+libDeckLinkAPI.so: cannot open shared object file: No such file or directory
+warning: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+warning: Failed to initialize module 'decklink.so'
+debug: ---------------------------------
+debug: Loading module: frontend-tools.so
+debug: ---------------------------------
+debug: Loading module: image-source.so
+debug: ---------------------------------
+debug: Required module function 'obs_module_load' in module '/usr/lib/x86_64-linux-gnu/obs-plugins/libcef.so' not found, loading of module failed
+debug: Failed to load module file '/usr/lib/x86_64-linux-gnu/obs-plugins/libcef.so', not an OBS plugin
+debug: ---------------------------------
+debug: Required module function 'obs_module_load' in module '/usr/lib/x86_64-linux-gnu/obs-plugins/libEGL.so' not found, loading of module failed
+debug: Failed to load module file '/usr/lib/x86_64-linux-gnu/obs-plugins/libEGL.so', not an OBS plugin
+debug: ---------------------------------
+debug: Required module function 'obs_module_load' in module '/usr/lib/x86_64-linux-gnu/obs-plugins/libGLESv2.so' not found, loading of module failed
+debug: Failed to load module file '/usr/lib/x86_64-linux-gnu/obs-plugins/libGLESv2.so', not an OBS plugin
+debug: ---------------------------------
+debug: Required module function 'obs_module_load' in module '/usr/lib/x86_64-linux-gnu/obs-plugins/libvk_swiftshader.so' not found, loading of module failed
+debug: Failed to load module file '/usr/lib/x86_64-linux-gnu/obs-plugins/libvk_swiftshader.so', not an OBS plugin
+debug: ---------------------------------
+debug: Loading module: linux-alsa.so
+debug: ---------------------------------
+debug: Loading module: linux-capture.so
+debug: ---------------------------------
+debug: Loading module: linux-jack.so
+debug: ---------------------------------
+debug: Loading module: linux-pipewire.so
+info: [pipewire] Available capture sources:
+info: [pipewire]     - Monitor source
+info: [pipewire]     - Window source
+debug: ---------------------------------
+debug: Loading module: linux-pulseaudio.so
+debug: ---------------------------------
+debug: Loading module: linux-v4l2.so
+debug: ---------------------------------
+debug: Loading module: obs-browser.so
+info: [obs-browser]: Version 2.23.6
+info: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2594+g17f8588+chromium-103.0.5060.134 (compiled)
+debug: ---------------------------------
+debug: Loading module: obs-ffmpeg.so
+info: NVENC supported
+debug: VAAPI: Initializing display in vaapi_device_h264_supported
+debug: Libva: VA-API version 1.14.0
+debug: Libva: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+debug: Libva: Found init function __vaDriverInit_1_14
+debug: Libva: va_openDriver() returns 0
+debug: VAAPI: Display initialized
+info: VAAPI: API version 1.14
+debug: VAAPI: 'Intel iHD driver for Intel(R) Gen Graphics - 22.3.1 ()' in use for device '/dev/dri/renderD128'
+debug: VAAPI: VAProfileH264ConstrainedBaseline VAEntrypointEncSlice is not supported by the device '/dev/dri/renderD128'
+debug: VAAPI: VAProfileH264Main VAEntrypointEncSlice is not supported by the device '/dev/dri/renderD128'
+debug: VAAPI: VAProfileH264High VAEntrypointEncSlice is not supported by the device '/dev/dri/renderD128'
+debug: '/dev/dri/renderD128' support low power encoding with VAProfileH264ConstrainedBaseline
+debug: '/dev/dri/renderD128' support low power encoding with VAProfileH264Main
+debug: '/dev/dri/renderD128' support low power encoding with VAProfileH264High
+info: FFmpeg VAAPI H264 encoding supported
+info: FFmpeg VAAPI AV1 encoding not supported
+debug: VAAPI: Initializing display in vaapi_device_hevc_supported
+debug: Libva: VA-API version 1.14.0
+debug: Libva: Trying to open /usr/lib/x86_64-linux-gnu/dri/iHD_drv_video.so
+debug: Libva: Found init function __vaDriverInit_1_14
+debug: Libva: va_openDriver() returns 0
+debug: VAAPI: Display initialized
+debug: VAAPI: 'Intel iHD driver for Intel(R) Gen Graphics - 22.3.1 ()' in use for device '/dev/dri/renderD128'
+debug: VAAPI: VAProfileHEVCMain VAEntrypointEncSlice is not supported by the device '/dev/dri/renderD128'
+debug: VAAPI: VAProfileHEVCMain10 VAEntrypointEncSlice is not supported by the device '/dev/dri/renderD128'
+debug: VAAPI: VAProfileHEVCMain VAEntrypointEncSliceLP is not supported by the device '/dev/dri/renderD128'
+debug: VAAPI: VAProfileHEVCMain10 VAEntrypointEncSliceLP is not supported by the device '/dev/dri/renderD128'
+debug: VAAPI: Initializing display in vaapi_device_hevc_supported
+debug: Libva: VA-API version 1.14.0
+debug: Libva error: vaGetDriverNameByIndex() failed with unknown libva error, driver_name = (null)
+error: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+info: FFmpeg VAAPI HEVC encoding not supported
+debug: ---------------------------------
+debug: Loading module: obs-filters.so
+debug: ---------------------------------
+debug: Loading module: obs-libfdk.so
+debug: ---------------------------------
+debug: Loading module: obs-outputs.so
+debug: ---------------------------------
+debug: Loading module: obs-qsv11.so
+debug: ---------------------------------
+debug: Loading module: obs-transitions.so
+debug: ---------------------------------
+debug: Loading module: obs-vst.so
+debug: ---------------------------------
+debug: Loading module: obs-websocket.so
+info: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.2 | RPC Version: 1)
+info: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.2.4 | Qt version (run-time): 6.2.4
+info: [obs-websocket] [obs_module_load] Linked ASIO Version: 101801
+debug: [obs-websocket] [Config::Save] Saved config.
+info: [obs-websocket] [obs_module_load] Module loaded.
+debug: ---------------------------------
+debug: Loading module: obs-x264.so
+debug: ---------------------------------
+debug: Loading module: rtmp-services.so
+debug: ---------------------------------
+debug: Loading module: text-freetype2.so
+debug: ---------------------------------
+debug: Loading module: vlc-video.so
+info: [vlc-video]: VLC 3.0.16 Vetinari found, VLC video source enabled
+info: ---------------------------------
+info:   Loaded Modules:
+info:     vlc-video.so
+info:     text-freetype2.so
+info:     rtmp-services.so
+info:     obs-x264.so
+info:     obs-websocket.so
+info:     obs-vst.so
+info:     obs-transitions.so
+info:     obs-qsv11.so
+info:     obs-outputs.so
+info:     obs-libfdk.so
+info:     obs-filters.so
+info:     obs-ffmpeg.so
+info:     obs-browser.so
+info:     linux-v4l2.so
+info:     linux-pulseaudio.so
+info:     linux-pipewire.so
+info:     linux-jack.so
+info:     linux-capture.so
+info:     linux-alsa.so
+info:     image-source.so
+info:     frontend-tools.so
+info:     decklink-output-ui.so
+info:     decklink-captions.so
+info: ---------------------------------
+info: ---------------------------------
+info: Available Encoders:
+info:   Video Encoders:
+info: 	- ffmpeg_aom_av1 (AOM AV1)
+info: 	- ffmpeg_nvenc (NVIDIA NVENC H.264 (FFmpeg))
+info: 	- ffmpeg_hevc_nvenc (NVIDIA NVENC HEVC (FFmpeg))
+info: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+info: 	- obs_qsv11_v2 (QuickSync H.264)
+info: 	- obs_x264 (x264)
+info:   Audio Encoders:
+info: 	- ffmpeg_aac (FFmpeg AAC)
+info: 	- ffmpeg_opus (FFmpeg Opus)
+info: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+info: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+info: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+info: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+info: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+info: 	- libfdk_aac (libfdk AAC)
+info: ==== Startup complete ===============================================
+debug: service 'default_service' (rtmp_common) created
+debug: output 'virtualcam_output' (virtualcam_output) created
+debug: encoder 'simple_video_stream' (ffmpeg_nvenc) created
+debug: Fallback encoder bitrates:
+	 64 kbit/s:
+	 96 kbit/s:
+	128 kbit/s:
+	160 kbit/s:
+	192 kbit/s:
+	224 kbit/s:
+	256 kbit/s:
+	288 kbit/s:
+	320 kbit/s:
+	352 kbit/s:
+	384 kbit/s:
+	416 kbit/s:
+	448 kbit/s:
+	480 kbit/s:
+	512 kbit/s:
+	544 kbit/s:
+	576 kbit/s:
+	608 kbit/s:
+	640 kbit/s:
+	672 kbit/s:
+	704 kbit/s:
+	736 kbit/s:
+	768 kbit/s:
+	800 kbit/s:
+	832 kbit/s:
+	864 kbit/s:
+	896 kbit/s:
+	928 kbit/s:
+	960 kbit/s:
+	992 kbit/s:
+	1024 kbit/s:
+debug: FFmpeg PCM (16-bit) (ffmpeg_pcm_s16le) encoder bitrates:
+	 64 kbit/s
+	 96 kbit/s
+	128 kbit/s
+	160 kbit/s
+	192 kbit/s
+	224 kbit/s
+	256 kbit/s
+	288 kbit/s
+	320 kbit/s
+	352 kbit/s
+	384 kbit/s
+	416 kbit/s
+	448 kbit/s
+	480 kbit/s
+	512 kbit/s
+	544 kbit/s
+	576 kbit/s
+	608 kbit/s
+	640 kbit/s
+	672 kbit/s
+	704 kbit/s
+	736 kbit/s
+	768 kbit/s
+	800 kbit/s
+	832 kbit/s
+	864 kbit/s
+	896 kbit/s
+	928 kbit/s
+	960 kbit/s
+	992 kbit/s
+	1024 kbit/s
+debug: FFmpeg PCM (24-bit) (ffmpeg_pcm_s24le) encoder bitrates:
+	 64 kbit/s
+	 96 kbit/s
+	128 kbit/s
+	160 kbit/s
+	192 kbit/s
+	224 kbit/s
+	256 kbit/s
+	288 kbit/s
+	320 kbit/s
+	352 kbit/s
+	384 kbit/s
+	416 kbit/s
+	448 kbit/s
+	480 kbit/s
+	512 kbit/s
+	544 kbit/s
+	576 kbit/s
+	608 kbit/s
+	640 kbit/s
+	672 kbit/s
+	704 kbit/s
+	736 kbit/s
+	768 kbit/s
+	800 kbit/s
+	832 kbit/s
+	864 kbit/s
+	896 kbit/s
+	928 kbit/s
+	960 kbit/s
+	992 kbit/s
+	1024 kbit/s
+debug: FFmpeg PCM (32-bit float) (ffmpeg_pcm_f32le) encoder bitrates:
+	 64 kbit/s
+	 96 kbit/s
+	128 kbit/s
+	160 kbit/s
+	192 kbit/s
+	224 kbit/s
+	256 kbit/s
+	288 kbit/s
+	320 kbit/s
+	352 kbit/s
+	384 kbit/s
+	416 kbit/s
+	448 kbit/s
+	480 kbit/s
+	512 kbit/s
+	544 kbit/s
+	576 kbit/s
+	608 kbit/s
+	640 kbit/s
+	672 kbit/s
+	704 kbit/s
+	736 kbit/s
+	768 kbit/s
+	800 kbit/s
+	832 kbit/s
+	864 kbit/s
+	896 kbit/s
+	928 kbit/s
+	960 kbit/s
+	992 kbit/s
+	1024 kbit/s
+debug: FFmpeg ALAC (24-bit) (ffmpeg_alac) encoder bitrates:
+	 64 kbit/s
+	 96 kbit/s
+	128 kbit/s
+	160 kbit/s
+	192 kbit/s
+	224 kbit/s
+	256 kbit/s
+	288 kbit/s
+	320 kbit/s
+	352 kbit/s
+	384 kbit/s
+	416 kbit/s
+	448 kbit/s
+	480 kbit/s
+	512 kbit/s
+	544 kbit/s
+	576 kbit/s
+	608 kbit/s
+	640 kbit/s
+	672 kbit/s
+	704 kbit/s
+	736 kbit/s
+	768 kbit/s
+	800 kbit/s
+	832 kbit/s
+	864 kbit/s
+	896 kbit/s
+	928 kbit/s
+	960 kbit/s
+	992 kbit/s
+	1024 kbit/s
+debug: FFmpeg FLAC (16-bit) (ffmpeg_flac) encoder bitrates:
+	 64 kbit/s
+	 96 kbit/s
+	128 kbit/s
+	160 kbit/s
+	192 kbit/s
+	224 kbit/s
+	256 kbit/s
+	288 kbit/s
+	320 kbit/s
+	352 kbit/s
+	384 kbit/s
+	416 kbit/s
+	448 kbit/s
+	480 kbit/s
+	512 kbit/s
+	544 kbit/s
+	576 kbit/s
+	608 kbit/s
+	640 kbit/s
+	672 kbit/s
+	704 kbit/s
+	736 kbit/s
+	768 kbit/s
+	800 kbit/s
+	832 kbit/s
+	864 kbit/s
+	896 kbit/s
+	928 kbit/s
+	960 kbit/s
+	992 kbit/s
+	1024 kbit/s
+debug: libfdk AAC (libfdk_aac) encoder bitrates:
+	 32 kbit/s
+	 64 kbit/s
+	 96 kbit/s
+	128 kbit/s
+	160 kbit/s
+	192 kbit/s
+	224 kbit/s
+	256 kbit/s
+	288 kbit/s
+	320 kbit/s
+	352 kbit/s
+	384 kbit/s
+	416 kbit/s
+	448 kbit/s
+	480 kbit/s
+	512 kbit/s
+	544 kbit/s
+	576 kbit/s
+	608 kbit/s
+	640 kbit/s
+	672 kbit/s
+	704 kbit/s
+	736 kbit/s
+	768 kbit/s
+	800 kbit/s
+	832 kbit/s
+	864 kbit/s
+	896 kbit/s
+	928 kbit/s
+	960 kbit/s
+	992 kbit/s
+	1024 kbit/s
+debug: AAC simple encoder bitrate mapping:
+	 32 kbit/s: 'libfdk AAC' (libfdk_aac)
+	 64 kbit/s: 'libfdk AAC' (libfdk_aac)
+	 96 kbit/s: 'libfdk AAC' (libfdk_aac)
+	128 kbit/s: 'libfdk AAC' (libfdk_aac)
+	160 kbit/s: 'libfdk AAC' (libfdk_aac)
+	192 kbit/s: 'libfdk AAC' (libfdk_aac)
+	224 kbit/s: 'libfdk AAC' (libfdk_aac)
+	256 kbit/s: 'libfdk AAC' (libfdk_aac)
+	288 kbit/s: 'libfdk AAC' (libfdk_aac)
+	320 kbit/s: 'libfdk AAC' (libfdk_aac)
+	352 kbit/s: 'libfdk AAC' (libfdk_aac)
+	384 kbit/s: 'libfdk AAC' (libfdk_aac)
+	416 kbit/s: 'libfdk AAC' (libfdk_aac)
+	448 kbit/s: 'libfdk AAC' (libfdk_aac)
+	480 kbit/s: 'libfdk AAC' (libfdk_aac)
+	512 kbit/s: 'libfdk AAC' (libfdk_aac)
+	544 kbit/s: 'libfdk AAC' (libfdk_aac)
+	576 kbit/s: 'libfdk AAC' (libfdk_aac)
+	608 kbit/s: 'libfdk AAC' (libfdk_aac)
+	640 kbit/s: 'libfdk AAC' (libfdk_aac)
+	672 kbit/s: 'libfdk AAC' (libfdk_aac)
+	704 kbit/s: 'libfdk AAC' (libfdk_aac)
+	736 kbit/s: 'libfdk AAC' (libfdk_aac)
+	768 kbit/s: 'libfdk AAC' (libfdk_aac)
+	800 kbit/s: 'libfdk AAC' (libfdk_aac)
+	832 kbit/s: 'libfdk AAC' (libfdk_aac)
+	864 kbit/s: 'libfdk AAC' (libfdk_aac)
+	896 kbit/s: 'libfdk AAC' (libfdk_aac)
+	928 kbit/s: 'libfdk AAC' (libfdk_aac)
+	960 kbit/s: 'libfdk AAC' (libfdk_aac)
+	992 kbit/s: 'libfdk AAC' (libfdk_aac)
+	1024 kbit/s: 'libfdk AAC' (libfdk_aac)
+debug: encoder 'simple_aac' (libfdk_aac) created
+debug: encoder 'simple_archive_audio' (libfdk_aac) created
+debug: encoder 'simple_video_recording' (ffmpeg_nvenc) created
+debug: encoder 'simple_aac_recording' (libfdk_aac) created
+debug: encoder 'simple_aac_recording0' (libfdk_aac) created
+debug: encoder 'simple_aac_recording1' (libfdk_aac) created
+debug: encoder 'simple_aac_recording2' (libfdk_aac) created
+debug: encoder 'simple_aac_recording3' (libfdk_aac) created
+debug: encoder 'simple_aac_recording4' (libfdk_aac) created
+debug: encoder 'simple_aac_recording5' (libfdk_aac) created
+debug: output 'simple_file_output' (ffmpeg_muxer) created
+info: All scene data cleared
+info: ------------------------------------------------
+debug: private source 'Cut' (cut_transition) created
+debug: private source 'Fade' (fade_transition) created
+info: pulse-input: Server name: 'pulseaudio 15.99.1'
+debug: pulse-input: Default output device: 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+info: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+info: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+debug: source 'Desktop Audio' (pulse_output_capture) created
+info: [Loaded global audio device]: 'Desktop Audio'
+info: pulse-input: Server name: 'pulseaudio 15.99.1'
+debug: pulse-input: Default input device: 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+info: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+info: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo' (default)
+debug: source 'Mic/Aux' (pulse_input_capture) created
+info: [Loaded global audio device]: 'Mic/Aux'
+debug: source 'Scene' (scene) created
+info: PipeWire initialized
+debug: source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) created
+debug: source 'Scene 2' (scene) created
+info: PipeWire initialized
+debug: source 'Screen Capture (PipeWire) 2' (pipewire-screen-capture-source) created
+info: Switched to scene 'Scene 2'
+info: ------------------------------------------------
+info: Loaded scenes:
+info: - scene 'Scene':
+info:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+info: - scene 'Scene 2':
+info:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+info:     - source: 'Screen Capture (PipeWire) 2' (pipewire-screen-capture-source)
+info: ------------------------------------------------
+warning: Wayland does not support QWindow::requestActivate()
+info: [pipewire] Screencast session created
+info: [pipewire] Screencast session created
+debug: [pipewire] Response to select source received
+info: [pipewire] Asking for monitor and window
+debug: [pipewire] Response to select source received
+info: [pipewire] Asking for monitor and window
+debug: Attempted path: /usr/bin/../share/obs/obs-studio/images/overflow.png
+warning: [pipewire] Failed to start screencast, denied or cancelled by user
+info: [pipewire] source selected, setting up screencast
+info: [pipewire] Server version: 0.3.48
+info: [pipewire] Library version: 0.3.48
+info: [pipewire] Header version: 0.3.48
+debug: [pipewire] registered event 0x623970c5d640
+info: [pipewire] Created stream 0x62396f556c10
+info: [pipewire] Stream 0x62396f556c10 state: "connecting" (error: none)
+info: [pipewire] Playing stream 0x62396f556c10
+info: [pipewire] Stream 0x62396f556c10 state: "paused" (error: none)
+info: [pipewire] Negotiated format:
+info: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+info: [pipewire]     Modifier: 0xffffffffffffff
+info: [pipewire]     Size: 1920x1080
+info: [pipewire]     Framerate: 0/1
+info: [pipewire] Stream 0x62396f556c10 state: "streaming" (error: none)
+info: ---------------------------------
+info: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+	rate_control: CQP
+	bitrate:      0
+	cqp:          23
+	keyint:       250
+	preset:       p5
+	tuning:       hq
+	multipass:    qres
+	profile:      high
+	width:        1920
+	height:       1080
+	b-frames:     2
+	psycho-aq:    1
+	GPU:          0
+
+[h264_nvenc @ 0x62396f6d4a00] dl_fn->cuda_dl->cuInit(0) failed -> CUDA_ERROR_UNKNOWN: unknown error
+warning: [NVENC encoder] nvenc_create_internal failed, trying again without Psycho Visual Tuning
+info: ---------------------------------
+info: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+	rate_control: CQP
+	bitrate:      0
+	cqp:          23
+	keyint:       250
+	preset:       p5
+	tuning:       hq
+	multipass:    qres
+	profile:      high
+	width:        1920
+	height:       1080
+	b-frames:     2
+	psycho-aq:    0
+	GPU:          0
+
+[h264_nvenc @ 0x62396f46e600] dl_fn->cuda_dl->cuInit(0) failed -> CUDA_ERROR_UNKNOWN: unknown error
+info: ---------------------------------
+info: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+	rate_control: CQP
+	bitrate:      0
+	cqp:          23
+	keyint:       250
+	preset:       p5
+	tuning:       hq
+	multipass:    qres
+	profile:      high
+	width:        1920
+	height:       1080
+	b-frames:     2
+	psycho-aq:    1
+	GPU:          0
+
+[h264_nvenc @ 0x62396f683d80] dl_fn->cuda_dl->cuInit(0) failed -> CUDA_ERROR_UNKNOWN: unknown error
+warning: [NVENC encoder] nvenc_create_internal failed, trying again without Psycho Visual Tuning
+info: ---------------------------------
+info: [FFmpeg NVENC encoder: 'simple_video_recording'] settings:
+	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+	rate_control: CQP
+	bitrate:      0
+	cqp:          23
+	keyint:       250
+	preset:       p5
+	tuning:       hq
+	multipass:    qres
+	profile:      high
+	width:        1920
+	height:       1080
+	b-frames:     2
+	psycho-aq:    0
+	GPU:          0
+
+[h264_nvenc @ 0x623970d09c40] dl_fn->cuda_dl->cuInit(0) failed -> CUDA_ERROR_UNKNOWN: unknown error
