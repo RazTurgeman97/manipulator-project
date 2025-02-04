@@ -9,45 +9,50 @@ from launch.conditions import UnlessCondition
 
 def generate_launch_description():
     
+    is_sim = LaunchConfiguration("is_sim")
+    
     is_sim_arg = DeclareLaunchArgument(
         "is_sim",
         default_value="True"
     )
     
-    is_sim = LaunchConfiguration("is_sim")
-    
     robot_description = ParameterValue(
         Command(
-        [
-            "xacro ",
-            os.path.join(get_package_share_directory("arduinobot_description"), "urdf", "arduinobot.urdf.xacro"),
-            " is_sim:=False"
-        ]
+            [
+                "xacro ",
+                os.path.join(
+                    get_package_share_directory("arduinobot_description"),
+                    "urdf",
+                    "arduinobot.urdf.xacro",
+                ),
+                " is_sim:=False"
+            ]
         ),
-        value_type = str
+        value_type = str,
     )
     
     robot_state_publisher = Node(
         package='robot_state_publisher', 
         executable='robot_state_publisher', 
         name='robot_state_publisher', 
-        parameters=[{'robot_description': robot_description}],
+        parameters=[{'robot_description': robot_description,
+                     "use_sim_time": False}],
         condition=UnlessCondition(is_sim)
     )
     
     controller_manager = Node(
-        package="controller",
-        executable="ros2_contol_node",
+        package="controller_manager",
+        executable="ros2_control_node",
         parameters=[
             {"robot_description": robot_description,
              "use_sim_time": is_sim},
             os.path.join(
-                get_package_share_directory("arduino_controller"),
+                get_package_share_directory("arduinobot_controller"),
                 "config",
-                "arduinobot_contollers.yaml"
-            )
+                "arduinobot_controllers.yaml",
+            ),
         ],
-        condition=UnlessCondition(is_sim)
+        condition=UnlessCondition(is_sim),
     )
     
     joint_state_broadcaster_spawner = Node(

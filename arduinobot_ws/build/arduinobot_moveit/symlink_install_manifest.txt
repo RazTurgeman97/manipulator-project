@@ -3,6 +3,7 @@
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/initial_positions.yaml
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/joint_limits.yaml
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/kinematics.yaml
+/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/moveit.rviz
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/moveit_controllers.yaml
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/pilz_cartesian_limits.yaml
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/config/planning_python_api.yaml

@@ -1,0 +1,83 @@
+[0.632s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/challenge_py:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake /home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller -DCMAKE_INSTALL_PREFIX=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller
+[1.880s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.623s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.077s] -- Found hardware_interface: 2.47.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[5.926s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.286s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.562s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.082s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.368s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.525s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.527s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[10.546s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[10.825s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.383s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.383s] -- Configured cppcheck include dirs: /home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/include;/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/
+[11.384s] -- Configured cppcheck exclude dirs and/or files: 
+[11.384s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.384s] -- Added test 'lint_cmake' to check CMake code style
+[11.385s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.385s] -- Added test 'uncrustify' to check C / C++ code style
+[11.386s] -- Configured uncrustify additional arguments: 
+[11.386s] -- Added test 'xmllint' to check XML markup files
+[11.467s] -- Configuring done (10.3s)
+[18.020s] -- Generating done (6.5s)
+[18.058s] -- Build files have been written to: /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller
+[18.065s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/challenge_py:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake /home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller -DCMAKE_INSTALL_PREFIX=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller
+[18.067s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/challenge_py:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller -- -j12 -l12
+[18.503s] [ 50%] [32mBuilding CXX object CMakeFiles/arduinobot_controller.dir/src/arduinobot_interface.cpp.o[0m
+[57.626s] [01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[57.626s] [01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:106:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[57.626s]   106 | CallbackReturn ArduinobotInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K){
+[57.627s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[57.628s] [01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual arduinobot_controller::CallbackReturn arduinobot_controller::ArduinobotInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[57.628s] [01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:131:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[57.628s]   131 | CallbackReturn ArduinobotInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K){
+[57.628s]       |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[57.628s] [01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[57.628s] [01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:152:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[57.628s]   152 | hardware_interface::return_type ArduinobotInterface::read([01;35m[Kconst rclcpp::Time & time[m[K,
+[57.628s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[57.628s] [01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:153:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[57.628s]   153 |                                                             [01;35m[Kconst rclcpp::Duration & period[m[K){
+[57.628s]       |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[57.630s] [01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type arduinobot_controller::ArduinobotInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[57.630s] [01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:159:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[57.630s]   159 | hardware_interface::return_type ArduinobotInterface::write([01;35m[Kconst rclcpp::Time & time[m[K,
+[57.630s]       |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[57.630s] [01m[K/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:160:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[57.630s]   160 |                                                             [01;35m[Kconst rclcpp::Duration & period[m[K){
+[57.630s]       |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[61.507s] [100%] [32m[1mLinking CXX shared library libarduinobot_controller.so[0m
+[62.909s] [100%] Built target arduinobot_controller
+[62.911s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/challenge_py:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --build /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller -- -j12 -l12
+[62.938s] Invoking command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/challenge_py:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --install /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller
+[62.939s] -- Install configuration: ""
+[62.940s] -- Execute custom install script
+[62.948s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller//arduinobot_controller.xml
+[62.958s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config/arduinobot_controllers.yaml
+[62.958s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/controller.launch.py
+[62.959s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/lib/config/arduinobot_controllers.yaml
+[62.960s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/lib/launch/controller.launch.py
+[62.961s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/include/include/arduinobot_controller/arduinobot_interface.hpp
+[62.961s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/library_path.sh
+[62.961s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/library_path.dsv
+[62.961s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/package_run_dependencies/arduinobot_controller
+[62.962s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/parent_prefix_path/arduinobot_controller
+[62.962s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.sh
+[62.963s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/ament_prefix_path.dsv
+[62.963s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.sh
+[62.963s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/path.dsv
+[62.964s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.bash
+[62.964s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.sh
+[62.964s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.zsh
+[62.964s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/local_setup.dsv
+[62.964s] -- Symlinking: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv
+[62.967s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/packages/arduinobot_controller
+[62.967s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/arduinobot_controller
+[62.968s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[62.968s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[62.968s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig.cmake
+[62.969s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig-version.cmake
+[62.969s] -- Up-to-date symlink: /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.xml
+[62.971s] Invoked command in '/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/challenge_py:/home/raz/projects/ros2_advanced_concepts/ros2_ws/install/actions_py:/home/raz/ros2_ws/install/centerofmass_detection:/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/local/bin/cmake --install /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller

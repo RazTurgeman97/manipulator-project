@@ -39,7 +39,7 @@ install(
 )
 
 install(
-  DIRECTORY config launch
+  TARGETS ${PROJECT_NAME}
   DESTINATION lib
 )
 
@@ -56,18 +56,12 @@ ament_export_libraries(
   ${PROJECT_NAME}
 )
 
-ament_target_dependencies(${PROJECT_NAME}
+ament_export_dependencies(${PROJECT_NAME}
   hardware_interface
   pluginlib
   rclcpp
   rclcpp_lifecycle
 )
 
-if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  set(ament_cmake_copyright_FOUND TRUE)
-  set(ament_cmake_cpplint_FOUND TRUE)
-  ament_lint_auto_find_test_dependencies()
-endif()
 
 ament_package()

@@ -32,7 +32,8 @@ def generate_launch_description():
             get_package_share_directory("arduinobot_remote"),
             "launch",
             "remote_interface.launch.py"
-        )
+        ),
+        launch_arguments={"is_sim" : "False"}.items()
     )
     
     return LaunchDescription([

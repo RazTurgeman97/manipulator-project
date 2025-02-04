@@ -1,8 +1,7 @@
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller//arduinobot_controller.xml
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/config/arduinobot_controllers.yaml
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/launch/controller.launch.py
-/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/lib/config/arduinobot_controllers.yaml
-/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/lib/launch/controller.launch.py
+/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/lib/libarduinobot_controller.so
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/include/include/arduinobot_controller/arduinobot_interface.hpp
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/library_path.sh
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/environment/library_path.dsv
@@ -21,6 +20,7 @@
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/arduinobot_controller
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_include_directories-extras.cmake
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_libraries-extras.cmake
+/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/ament_cmake_export_dependencies-extras.cmake
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig.cmake
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/cmake/arduinobot_controllerConfig-version.cmake
 /home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.xml

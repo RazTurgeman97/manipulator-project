@@ -316,8 +316,8 @@ ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduin
 # install(DIRECTORY "config" "launch" "DESTINATION" "share/arduinobot_controller")
 ament_cmake_symlink_install_directory("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" DIRECTORY "config" "launch" "DESTINATION" "share/arduinobot_controller")
 
-# install(DIRECTORY "config" "launch" "DESTINATION" "lib")
-ament_cmake_symlink_install_directory("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" DIRECTORY "config" "launch" "DESTINATION" "lib")
+# install("TARGETS" "arduinobot_controller" "DESTINATION" "lib")
+include("/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(DIRECTORY "include" "DESTINATION" "include")
 ament_cmake_symlink_install_directory("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" DIRECTORY "include" "DESTINATION" "include")
@@ -372,6 +372,9 @@ ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduin
 
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/arduinobot_controller/cmake")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/arduinobot_controller/cmake")
+
+# install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/arduinobot_controller/cmake")
+ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/arduinobot_controller/cmake")
 
 # install(FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_core/arduinobot_controllerConfig.cmake" "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_core/arduinobot_controllerConfig-version.cmake" "DESTINATION" "share/arduinobot_controller/cmake")
 ament_cmake_symlink_install_files("/home/raz/projects/manipulator-project/arduinobot_ws/src/arduinobot_controller" FILES "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_core/arduinobot_controllerConfig.cmake" "/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_controller/ament_cmake_core/arduinobot_controllerConfig-version.cmake" "DESTINATION" "share/arduinobot_controller/cmake")

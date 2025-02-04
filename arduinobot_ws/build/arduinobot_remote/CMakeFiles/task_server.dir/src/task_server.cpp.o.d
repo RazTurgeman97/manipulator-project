@@ -678,8 +678,8 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: \
  /opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
- /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/arduinobot_task.hpp \
- /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__struct.hpp \
+ /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/action/arduinobot_task.hpp \
+ /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/action/detail/arduinobot_task__struct.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp \
@@ -690,10 +690,10 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: \
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.hpp \
- /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__builder.hpp \
- /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__traits.hpp \
- /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/action/detail/arduinobot_task__type_support.hpp \
- /home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/include/arduinobot_msgs/arduinobot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/action/detail/arduinobot_task__builder.hpp \
+ /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/action/detail/arduinobot_task__traits.hpp \
+ /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/action/detail/arduinobot_task__type_support.hpp \
+ /home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_msgs/rosidl_generator_cpp/arduinobot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
  /usr/include/c++/11/cstddef /usr/include/console_bridge/console.h \
@@ -1265,32 +1265,32 @@ CMakeFiles/task_server.dir/src/task_server.cpp.o: \
  /opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h \
  /opt/ros/humble/include/tf2_ros/tf2_ros/async_buffer_interface.h \
  /opt/ros/humble/include/tf2_ros/tf2_ros/visibility_control.h \
- /opt/ros/humble/include/tf2/tf2/buffer_core.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.h \
+ /opt/ros/humble/include/tf2/tf2/buffer_core.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Transform.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Matrix3x3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.hpp \
  /usr/include/c++/11/cfloat \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.hpp \
  /opt/ros/humble/include/tf2/tf2/visibility_control.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__type_support.hpp \
- /opt/ros/humble/include/tf2/tf2/buffer_core_interface.h \
- /opt/ros/humble/include/tf2/tf2/time.h \
- /opt/ros/humble/include/tf2/tf2/exceptions.h \
- /opt/ros/humble/include/tf2/tf2/transform_storage.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
- /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
- /opt/ros/humble/include/tf2/tf2/transform_datatypes.h \
+ /opt/ros/humble/include/tf2/tf2/buffer_core_interface.hpp \
+ /opt/ros/humble/include/tf2/tf2/time.hpp \
+ /opt/ros/humble/include/tf2/tf2/exceptions.hpp \
+ /opt/ros/humble/include/tf2/tf2/transform_storage.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
+ /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
+ /opt/ros/humble/include/tf2/tf2/transform_datatypes.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h \
- /opt/ros/humble/include/tf2/tf2/convert.h \
- /opt/ros/humble/include/tf2/tf2/impl/convert.h \
+ /opt/ros/humble/include/tf2/tf2/convert.hpp \
+ /opt/ros/humble/include/tf2/tf2/impl/convert.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/create_timer_interface.h \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/frame_graph.hpp \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp \

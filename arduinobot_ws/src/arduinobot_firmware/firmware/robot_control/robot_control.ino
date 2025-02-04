@@ -1,15 +1,18 @@
 #include <Servo.h>
 
+// Declare the Arduino pin where each servo is connected
 #define SERVO_BASE_PIN 8
 #define SERVO_SHOULDER_PIN 9
 #define SERVO_ELBOW_PIN 10
 #define SERVO_GRIPPER_PIN 11
 
+// Define the start configuration of the joints
 #define BASE_START 90
 #define SHOULDER_START 90
-#define ELBOW_START 90
+#define ELBOW_START 170
 #define GRIPPER_START 0
 
+// Register the servo motors of each joint
 Servo base;
 Servo shoulder;
 Servo elbow;
@@ -19,19 +22,24 @@ uint8_t idx = 0;
 uint8_t value_idx = 0;
 char value[4] = "000";
 
-void reach_goal(Servo& motor, int goal){
 
-  if(goal>=motor.read()){ // Rotate Clock wize
+/*
+ * This function moves a given servo smoothly from a given start position to a given end position.
+ * The movement can be both clockwise or counterclockwise based on the values assigned to
+ * the start position and end position
+ */
+void reach_goal(Servo& motor, int goal) {
 
-    for(int pos = motor.read(); pos <= goal; pos++){
+  if (goal >= motor.read()) {  // Rotate Clock wize
+    // goes from the start point degrees to the end point degrees
+    for (int pos = motor.read(); pos <= goal; pos++) {
 
       motor.write(pos);
       delay(5);
     }
-  }
-  else{ // Rotate Counter Clock wize
-
-    for(int pos = motor.read(); pos >= goal; pos--){
+  } else {  // Rotate Counter Clock wize
+    // goes from the end point degrees to the start point degrees
+    for (int pos = motor.read(); pos >= goal; pos--) {
 
       motor.write(pos);
       delay(5);
@@ -40,77 +48,81 @@ void reach_goal(Servo& motor, int goal){
 }
 
 void setup() {
-  // put your setup code here, to run once:
+  // Attach and Initialize each Servo to the Arduino pin where it is connected
   base.attach(SERVO_BASE_PIN);
   shoulder.attach(SERVO_SHOULDER_PIN);
   elbow.attach(SERVO_ELBOW_PIN);
   gripper.attach(SERVO_GRIPPER_PIN);
 
+  // Set a common start point for each joint
+  // This way, the start status of each joint is known
   base.write(BASE_START);
   shoulder.write(SHOULDER_START);
   elbow.write(ELBOW_START);
   gripper.write(GRIPPER_START);
 
+  // Start the Serial communication with ROS
   Serial.begin(115200);
   Serial.setTimeout(1);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-  if(Serial.available()){
+  if (Serial.available()) {
 
     char chr = Serial.read();
 
-    if(chr == 'b'){
+    // base motor
+    if (chr == 'b') {
 
       idx = 1;
       value_idx = 0;
     }
-    else if(chr == 's'){
+    // shoulder motor
+    else if (chr == 's') {
 
       idx = 2;
       value_idx = 0;
     }
-    else if(chr == 'e'){
+    // elbow motor
+    else if (chr == 'e') {
 
       idx = 3;
       value_idx = 0;
     }
-    else if(chr == 'g'){
+    // gripper motor
+    else if (chr == 'g') {
 
       idx = 0;
       value_idx = 0;
     }
-    else if(chr == ','){
+    // Separator
+    else if (chr == ',') {
 
       int val = atoi(value);
-      if(idx == 0){
+      if (idx == 0) {
 
         reach_goal(base, val);
-      }
-      else if(idx == 1){
+      } else if (idx == 1) {
 
         reach_goal(shoulder, val);
-      }
-      else if(idx == 2){
+      } else if (idx == 2) {
 
         reach_goal(elbow, val);
-      }
-      else if(idx == 3){
+      } else if (idx == 3) {
 
         reach_goal(gripper, val);
       }
 
-      value[0]= '0';
-      value[1]= '0';
-      value[2]= '0';
-      value[3]= '\0';
+      value[0] = '0';
+      value[1] = '0';
+      value[2] = '0';
+      value[3] = '\0';
     }
-    else{
+    // Plain number
+    else {
 
       value[value_idx] = chr;
       value_idx++;
     }
   }
-
 }

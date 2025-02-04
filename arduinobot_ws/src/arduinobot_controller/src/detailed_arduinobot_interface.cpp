@@ -119,7 +119,7 @@ CallbackReturn ArduinobotInterface::on_activate(const rclcpp_lifecycle::State & 
     // Setup Arduino serial connection
     try {
         arduino_.Open(port_);
-        arduino_.SetBaudRate(LibSerial::BaudRate::BAUD_1152000);
+        arduino_.SetBaudRate(LibSerial::BaudRate::BAUD_115200);
     } catch(...) {
         RCLCPP_FATAL_STREAM(rclcpp::get_logger("ArduinobotInterface"), 
                            "Something went wrong while interacting with the port " << port_);

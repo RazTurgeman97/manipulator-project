@@ -446,7 +446,7 @@ ament_xmllint_BIN:FILEPATH=/opt/ros/humble/bin/ament_xmllint
 angles_DIR:PATH=/opt/ros/humble/share/angles/cmake
 
 //The directory containing a CMake configuration file for arduinobot_msgs.
-arduinobot_msgs_DIR:PATH=/home/raz/projects/manipulator-project/Arduino-Bot/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake
+arduinobot_msgs_DIR:PATH=/home/raz/projects/manipulator-project/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake
 
 //Value Computed by CMake
 arduinobot_remote_BINARY_DIR:STATIC=/home/raz/projects/manipulator-project/arduinobot_ws/build/arduinobot_remote
@@ -1141,5 +1141,5 @@ pkgcfg_lib_PC_CURL_curl-ADVANCED:INTERNAL=1
 pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl
 pkgcfg_lib__OPENSSL_ssl-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
+prefix_result:INTERNAL=AsynchDNS;GSS-API;HSTS;HTTP2;HTTPS-proxy;IDN;IPv6;Kerberos;Largefile;NTLM;NTLM_WB;PSL;SPNEGO;SSL;TLS-SRP;UnixSockets;alt-svc;brotli;libz;zstd
 
