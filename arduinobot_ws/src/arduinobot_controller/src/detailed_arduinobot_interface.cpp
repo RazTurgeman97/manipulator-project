@@ -197,7 +197,7 @@ hardware_interface::return_type ArduinobotInterface::write(
     try {
         arduino_.Write(msg);
     } catch(...) {
-        RCLCPP_ERROR_STREAM(rclcpp::get_logger("ARduinobotInterface"), 
+        RCLCPP_ERROR_STREAM(rclcpp::get_logger("ArduinobotInterface"), 
                            "Something went wrong while sending the message " << msg << 
                            " to the port " << port_);
         return hardware_interface::return_type::ERROR;
