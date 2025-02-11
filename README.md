@@ -22,7 +22,7 @@ Here are two examples demonstrating the robot's voice-activated functionality wi
 
 Here's a photo of the actual robot used in the project. This robot is the physical embodiment of the simulated model, featuring the same capabilities and integration.
 
-![Real Robot](assets/RealRobot.jpg)
+![Real Robot](assets/RealRobotWithPlatform.jpg)
 
 
 ## 🧠 **Course Highlights**
